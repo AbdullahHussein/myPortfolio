@@ -1,0 +1,2920 @@
+::-webkit-scrollbar {
+  width: 0.7em;
+  background-color: rgb(212,175,55, 0.45);
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(212,175,55, 0.65);
+}
+::-webkit-scrollbar-thumb:hover{
+  border-radius:15px;
+  background: rgb(32, 50, 66, 0.6);
+}
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+}
+.active-nav {
+  background: rgba(255, 255, 255, 0.28);
+  padding: 0.2% 1%;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.8);
+}
+.active-nav a {
+  color: rgb(32, 50, 66) !important;
+}
+header {
+  width: 100%;
+  background-color:rgb(212,175,55, 0.8);
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  z-index: 2;
+}
+.logo {
+  padding: 0.88em;
+  width: 20%;
+  position: relative;
+  top:5px;
+}
+.logo a {
+  color: rgb(32, 50, 66, 0.9);
+  text-decoration: none;
+}
+.logo a h1 {
+  height: 57%;
+  width: fit-content;
+  font-size: 1.7vw;
+  font-weight:lighter;
+  text-decoration: underline;
+  margin: 0 auto;
+  transform: scale(1.05, 1.2);
+}
+.logo a span {
+  position: absolute;
+  text-decoration: underline;
+  font-size: 1.5vw;
+  font-weight:lighter;
+  top: 22.5%;
+  left: 20.5%;
+  transform: scaleX(1.1);
+}
+.logo02 {
+  padding: 0.88em;
+  padding-top:6%;
+  position: relative;
+}
+.logo02 a {
+  color:rgb(212,175,55, 0.8);
+  text-decoration: none;
+}
+.logo02 a h1 {
+  height: 57%;
+  width: fit-content;
+  font-size: 1.7vw;
+  font-weight:lighter;
+  padding-left:17%;
+  text-decoration: underline;
+  transform: scale(1.05, 1.2);
+}
+.logo02 a span {
+  position: absolute;
+  text-decoration: underline;
+  font-size: 1.5vw;
+  font-weight:lighter;
+  top: 33.3%;
+  left: 20.5%;
+  transform: scaleX(1.1);
+}
+.nav {
+  width: 80%;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+}
+.nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.nav ul li {
+  list-style: none;
+}
+.nav ul li a {
+  text-decoration: none;
+  font-size: 2vw;
+  color: rgb(32, 50, 66,0.75);
+  font-family: "Montserrat", sans-serif;
+  transition: all 0.3s linear;
+}
+.nav ul li a:hover {
+  color:rgb(255, 255, 255,0.75);
+}
+
+/* -------------------- intro ----------------- */
+.intro {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 4px solid #203242;
+}
+.left-intro {
+  width: 21%;
+  z-index:2;
+  background: #203242;
+}
+.left-intro .img-div {
+  width: 100%;
+  height: 45%;
+  margin-left: 50%;
+  padding-top: 50%;
+}
+.left-intro .img-div .img {
+  background-image: url("./images/me.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  box-sizing: border-box;
+  padding: 1%;
+  position: relative;
+}
+.left-intro .img-div .img::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+}
+
+.right-intro {
+  position: relative;
+  overflow: hidden;
+  width: 78%;
+  height:99vh;
+  display: flex;
+  flex-direction: column;
+  padding: 6% 0 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(32, 50, 66);
+}
+#matrix {
+  position: fixed;
+  top: 0;
+  left: 0;
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  max-width: 100%;
+  opacity:0.6;
+  z-index: -2;
+}
+#matrix01 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  max-width: 100%;
+  opacity:0.6;
+  z-index: -2;
+}
+.intro-title {
+  margin-top:10%;
+  padding: 4% 0 2% 16%;
+}
+.intro-title h1 {
+  padding: 1% 0 0;
+  font-size: 2vw;
+}
+.line-1 {
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);
+}
+.anim-typewriter {
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+    blinkTextCursor 500ms steps(44) infinite normal;
+}
+.anim-typewriter01 {
+  animation: typewriter 1.5s steps(44) 2.8s 1 normal both,
+    blinkTextCursor 500ms steps(44) infinite normal;
+}
+.anim-typewriter02 {
+  animation: typewriter 1.5s steps(44) 1.2s 1 normal both,
+    blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 30em;
+  }
+}
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+.intro-text {
+  padding: 0 0 6% 16%;
+}
+.intro-text .text {
+  font-size: 1.32vw;
+  width: 90%;
+}
+.intro-text .text .inTouch {
+  font-size: 1.5vw;
+  font-weight: 600;
+  color: rgb(212,175,55, 0.9);
+}
+
+.intro-arrow {
+  width: fit-content;
+  height: fit-content;
+  margin: 2.5% auto;
+  position: relative;
+}
+.intro-arrow a {
+  width: fit-content;
+  text-decoration: none;
+}
+.intro-arrow a .arrow {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #203242;
+  transition: all 1.5s ease;
+  z-index: 20;
+}
+.intro-arrow a:hover > .arrow {
+  border: 2px solid rgb(212,175,55,0.9);
+  transform: rotateX(-720deg);
+}
+.intro-arrow a .arrow-down1 #down1 {
+  font-size: 2.2em;
+  padding-top: 20%;
+}
+.intro-arrow a:hover > .arrow-down1 {
+  color:rgb(212,175,55,0.9);
+  transform: translateY(10px);
+}
+.intro-arrow a .arrow-down1 {
+  color: #203242;
+  position: absolute;
+  top: 20%;
+  left: 25%;
+  width: fit-content;
+  height: fit-content;
+  transition: all 1.5s ease;
+}
+
+.socialMedia {
+  position: fixed;
+  right: 0.3%;
+  top: 40.6%;
+}
+.navIconsFirst {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background: #203242;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  padding: 0 6% 2.26% 6%;
+}
+.firstIcons {
+  list-style: none;
+}
+.firstIcons i {
+  font-size: 3.2em;
+  color: #fff;
+  transition: all 0.2s linear;
+}
+.firstIcons i:hover {
+  color: #d4af37;
+}
+
+/* -------------------- aboutSkillsSection ----------------- */
+
+#aboutSkillsSection {
+  width: 100%;
+  height:98.9vh;
+  display: flex;
+  border-bottom: 4px solid #203242;
+  border-top: 3px solid #203242;
+}
+
+.about {
+  width: 40%;
+  border-right: 6px solid #203242;
+  padding: 4%;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  color: #203242;
+}
+#kawkeb{
+  font-weight: bolder;
+  color: rgb(212,175,55, 0.9);
+}
+.title {
+  font-size: 2.3vw;
+  font-weight:lighter;
+  width: fit-content;
+  padding-top:25px;
+  color:rgb(212,175,55, 0.9);
+  font-family: "Montserrat", sans-serif;
+}
+.about .title{
+  padding-top:28px;
+  font-weight:bold;
+}
+.skills .title{
+  font-weight:bold;
+}
+.about-text {
+  padding-top: 6%;
+  line-height: 1.31;
+  font-size: 1.4vw;
+}
+.about-text .hi {
+  color: rgb(212,175,55, 0.68);
+  font-size: 1.8vw;
+}
+
+.skills {
+  width: 59%;
+  padding: 4.3%;
+  color: #203242;
+}
+.skills-measure {
+  display: flex;
+  padding-top: 0.5%;
+}
+.skills-measure ul {
+  width: 50%;
+}
+.skills-measure ul li {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin: 5.3% 0;
+}
+.skills-measure ul li p {
+  font-size: 1.5vw;
+}
+.measure {
+  position: relative;
+  overflow: hidden;
+}
+.measure .main-span {
+  display: block;
+  width: 85%;
+  height: 25px;
+  background: rgb(212,175,55, 0.4);
+  border-radius: 4px;
+}
+.measure .second-span {
+  display: flex;
+  width: 50%;
+  height: 25px;
+  background: rgb(212,175,55, 0.8);
+  position: absolute;
+  font-size: 1.75vw;
+  padding:0 1.5px 0 0;
+  color:rgb(32, 50, 66,0.9);
+  font-weight:lighter;
+  font-family: "Montserrat", sans-serif;
+  top: 0;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* -------------------- workEducationSection ----------------- */
+#workEducationSection {
+  width: 100%;
+  height:98.8vh;
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  border-bottom: 1px solid #203242;
+  border-top: 3px solid #203242;
+}
+.languages {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  padding: 4% 4% 0;
+}
+.languages .title {
+  margin: 0 auto;
+  font-size:3vw;
+  color: #203242;
+}
+.languages ul li {
+  width: 80%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin: 9% auto;
+}
+.languages ul li p {
+  color: rgb(212,175,55, 0.9);
+  font-size: 2vw;
+  font-weight: 600;
+  padding-bottom: 1%;
+}
+.measure-lang {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.measure-lang .main-span-lang {
+  display: block;
+  width: 100%;
+  height: 60px;
+  background-color: rgb(212,175,55, 0.7);
+  border-radius: 7px;
+}
+.measure-lang .second-span-lang {
+  display: flex;
+  width: 50%;
+  height: 60px;
+  color: #fff;
+  font-size: 1.8vw;
+  font-weight: lighter;
+  background: #203242;
+  position: absolute;
+  top: 0;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  justify-content: flex-end;
+  align-items: center;
+}
+.education {
+  width: 40%;
+  height:91vh;
+  background: #203242;
+  padding: 4% 4% 0 0;
+}
+.education .title {
+  margin-left:37%;
+  font-size:3vw;
+  color: #fff;
+}
+
+.studying {
+  width: 100%;
+  height: 85%;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.study-text {
+  color: #fff;
+  font-size: 1.3vw;
+  font-weight: 600;
+  margin-top: 8%;
+}
+.uni .study-text{
+  margin-bottom: 10%;
+}
+.dci {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.dci-img {
+  width: 150px;
+  height: 150px;
+  background-image: url("./images/dci-logo-last.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  margin: 0 2% 0 -13%;
+  border: 5px solid #203242;
+  box-sizing: border-box;
+  margin-top:7%;
+}
+.dci-img a,
+.uni-img a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.uni {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.uni-img{
+  width: 150px;
+  height: 150px;
+  background-image: url("./images/auis-logo-last.png");
+  background-position: center;
+  background-size: cover;
+  background-color: #fff;
+  border-radius: 50%;
+  margin: 0 2% 0 -13.2%;
+  border: 5px solid #203242;
+  box-sizing: border-box;
+  margin-bottom:5%;
+}
+
+/* -------------------- goalContactSection ----------------- */
+#goalContactSection {
+  width: 100%;
+  height:77vh;
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  border-bottom: 7px solid #203242;
+  border-top: 6px solid #203242;
+}
+.goal {
+  width: 40%;
+  padding-top: 8%;
+  background: #203242;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+	overflow: hidden;
+	-webkit-font-smoothing: antialiased;
+	user-select: none;
+}
+.download-cv {
+  width: 300px;
+  height: 150px;
+  margin: 0 auto;
+  padding-top:15%;
+  padding-right:45px;
+}
+.goal a {
+  width: fit-content;
+  text-decoration: none;
+  font-size: 1.6vw;
+  padding: 8%;
+  border: 1.2px solid #ffffff;
+  border-radius: 8px;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.1);
+  box-sizing: border-box;
+  transition: all 0.5s linear;
+}
+.goal a:hover {
+  color: #203242;
+  background-color: #fff;
+  border-radius: 2em;
+}
+.goal .goalText {
+  margin-top:35px;
+  text-align: center;
+  padding: 20% -10% 5%;
+  font-size: 1.5vw;
+  color: rgb(255, 255, 255);
+  font-weight:lighter;
+}
+.contact {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  padding: 5.4% 1% 2%;
+}
+.message-icon {
+  color: #203242;
+  font-size: 7vw;
+  width: fit-content;
+  margin: 0 auto;
+}
+form {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+}
+input,
+textarea {
+  border: 0;
+  border-top: 2px solid #203242;
+  border-bottom:2px solid #203242;
+  border-radius: 0.4em;
+  font-size: 1.2vw;
+  padding: 1.5% 1%;
+  margin-top: 1%;
+  color: #203242;
+  width: 98%;
+}
+textarea{
+  height:100%;
+}
+input:focus,
+textarea:focus {
+  outline: none;
+}
+.name-email {
+  width: 102%;
+  display: flex;
+  justify-content: space-between;
+}
+.name-email input {
+  width: 49%;
+  margin-right: 2%;
+}
+.submit {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.send {
+  width: 65%;
+  color: rgb(0, 127, 0, 0.9);
+  border-color:rgb(0, 127, 0, 0.9);
+  font-size: 1.8vw;
+  margin-right: 1.5%;
+  background: #fff;
+  transition: all 0.3s linear;
+  cursor: pointer;
+  margin-top:29px;
+}
+.send:hover {
+  color: rgb(255, 255, 255);
+  background:rgb(0, 127, 0);
+}
+.reset {
+  width: 35%;
+  color: rgb(255, 0, 0, 0.9);
+  border-color:rgb(255, 0, 0, 0.9);
+  font-size: 1.8vw;
+  background: #fff;
+  transition: all 0.3s linear;
+  cursor: pointer;
+  margin-top:29px;
+}
+.reset:hover {
+  color: rgb(255, 255, 255);
+  background:rgb(255, 0, 0);
+}
+
+/* -------------------- footer ----------------- */
+footer {
+  width: 100%;
+  height:100%;
+  background-color: rgb(212,175,55, 0.8);
+}
+.footer01{
+  background:rgb(32, 50, 66,0.8);
+}
+.infoDiv .logo {
+  background: transparent;
+}
+.infoDiv .logo a {
+  color: #203242;
+}
+.infoDiv .logo a h1 {
+  text-decoration: underline;
+  border-bottom: none;
+}
+.infoDiv .logo a span {
+  top: 28%;
+  left: 21.7%;
+}
+.phone {
+  text-align: right;
+  padding-right: 2%;
+}
+.phone a {
+  color: #203242;
+}
+.phone a p {
+  font-weight: lighter;
+  font-size: 1.8vw;
+}
+.copyright {
+  width: 100%;
+  text-align: center;
+  padding: 3% 0 0;
+}
+.copyright p {
+  font-size: 1.4vw;
+  color: #203242;
+}
+/* Clock part.. */
+.myClock{
+  padding-top:30%;
+}
+#clock {
+  text-align:center;
+  color:rgb(212,175,55, 0.3);
+  font-weight:lighter;
+  letter-spacing:5px;
+  font-size:2vw;
+  font-family: "Montserrat", sans-serif;
+  }
+  #day {
+    padding-left:13%;
+    margin-top:0px;
+    font-size:2vw;
+    font-weight:lighter;
+    letter-spacing:2px;
+    color:rgb(212,175,55, 0.3);
+    font-family: "Montserrat", sans-serif;
+  }
+/* Media screen part.. */
+ @media screen and (max-width:960px) {
+  header{
+    display:none;
+  }
+  #body{
+    display:none;
+  }
+
+}
+@media screen and (min-width:1024px){
+  .logo02 a span {
+    position:absolute;
+    top: 27%;
+    left: 21%;
+    font-size: 1.57vw;
+    transform: scaleX(1.05)
+  }
+  .logo a span{
+    position:absolute;
+    top: 25%;
+    left: 20.71%;
+    font-size:1.57vw;
+    transform:scaleX(1.05);
+  }
+  .infoDiv .logo a span {
+    top: 29.5%;
+    left: 22%;
+  }
+  .active-nav{
+    border-radius: 5px;
+  }
+  .myClock{
+    padding-top:36%;
+    margin: 0 auto;
+  }
+  #day{
+    transform:translateX(-3%);
+    transform:scale(0.6)translateX(-22%);
+  }
+  .intro-title{
+    margin-top:17%;
+  }
+   .left-intro .img-div .img{
+    width: 100%;
+    height: 75%;
+    transform:scale(1.1);
+  }
+  .left-intro .img-div{
+    padding-top:75%;
+  }
+  .intro-arrow{
+    transform:scale(0.9);
+    margin-top:7%;
+  }
+  .socialMedia {
+    position: fixed;
+    right: 0.3%;
+    top: 34%;
+    transform:scale(0.9);
+  }
+  #aboutSkillsSection {
+    height:99vh;
+  }
+  .about-text{
+    padding-top:12%;
+    font-size:1.35vw;
+    line-height: 1.73;
+  }
+  .skills-measure {
+    display: flex;
+    padding-top: 3%;
+  }
+  .skills-measure ul li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 7.85% 0;
+  }
+  .measure .second-span {
+    height: 22px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+  }
+  .measure .main-span {
+    height: 22px;
+    border-radius: 3px;
+  }
+  .dci-img{
+    margin: 8% 2% 0 -20%;
+    transform:scale(0.8);
+  }
+  .uni-img{
+    margin: 0 2% 8% -21%;
+    transform:scale(0.8);
+  }
+  .dci .study-text{
+    margin-top:7%;
+    margin-left:-4%;
+    font-size: 1.4vw;
+  }
+  .uni .study-text{
+    margin-top:3%;
+    margin-left:-4%;
+    font-size: 1.4vw;
+  }
+  .education{
+    height:93vh;
+  }
+  .languages ul li {
+    margin: 12% auto;
+    transform:translateY(-15%)translateX(-5%);
+  }
+  .languages ul li p {
+    font-size: 2.2vw;
+    padding-top:1%;
+  }
+  .measure-lang .main-span-lang {
+    height: 50px;
+    border-radius: 6px;
+  }
+  .measure-lang .second-span-lang {
+    height: 50px;
+    font-size: 2.2vw;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+  }
+  #goalContactSection{
+    height:79.5vh;
+  }
+  .message-icon {
+    margin-top:3%;
+    font-size: 9.5vw;
+  }
+  form{
+    padding-top:5%;
+    transform:scale(1.25);
+  }
+  .submit{
+    margin-top:-9.1%;
+  }
+  input,
+textarea {
+  border-top: 1.9px solid #203242;
+  border-bottom:1.9px solid #203242;
+}
+  .download-cv{
+    padding-top:30%;
+    padding-left:20%;
+    transform:translate(-50%,-30%);
+    transform:scale(1.1);
+  }
+  .goal .goalText {
+    line-height:1.5;
+    transform:translateY(-15%);
+  }
+}
+@media screen and (min-width:1152px){
+  ::-webkit-scrollbar {
+    width: 1em;
+  }
+  .logo02 a span {
+    position:absolute;
+    top: 27%;
+    left: 21.3%;
+    font-size:1.5vw;
+    transform:scaleX(1.1);
+  }
+  .logo a span {
+    position: absolute;
+    top: 23%;
+    left: 21%;
+    font-size:1.5vw;
+    transform:scaleX(1.1);
+  }
+  .infoDiv .logo a span {
+    top: 27%;
+    left: 22.35%;
+  }
+  .active-nav{
+    border-radius: 6px;
+  }
+  .left-intro .img-div {
+    height: 38%;
+    margin-left: 50%;
+    padding-top: 100%;
+    transform:scale(1);
+  }
+  .intro-title{
+    margin-top:23%;
+  }
+  .intro-arrow{
+    margin-top:15%;
+    transform:scale(1.15);
+  }
+  .socialMedia {
+    position: fixed;
+    right: 0.9%;
+    top: 40.6%;
+    transform:scale(1.15);
+  }
+  .myClock{
+    padding-top:70%;
+  }
+    #day {
+      padding-left:15%;
+    }
+    .right-intro {
+      height:99.45vh;
+    }
+    .about-text{
+      padding-top:28%;
+      font-size:1.35vw;
+      line-height: 1.75;
+      transform:scaleY(1.2);
+    }
+    #aboutSkillsSection {
+      height:99.25vh;
+    }
+    .measure .main-span {
+      height: 27.5px;
+      border-radius: 3px;
+    }
+    .measure .second-span {
+      height: 27.5px;
+      font-size: 1.8vw;
+      border-top-left-radius: 3px;
+      border-bottom-left-radius: 3px;
+    }
+    .skills-measure ul li {
+      margin: 11.8% 0;
+    }
+    .skills-measure ul li p {
+      font-size: 1.65vw;
+      transform:translateY(-15%);
+    }
+    .education{
+      height:94vh;
+    }
+    .dci-img, .uni-img{
+      margin-left:-19%;
+      transform:scale(1.1);
+    }
+    .dci-img{
+      margin-top:17.5%;
+    }
+    .uni-img{
+      margin-top:-35%;
+    }
+    .dci .study-text{
+      margin-top: 15%;
+      margin-left:2%;
+      font-size: 1.4vw;
+    }
+    .uni .study-text{
+      margin-top: -32%;
+      margin-left:2%;
+      font-size: 1.4vw;
+    }
+    #workEducationSection {
+      height:99vh;
+    }
+    .languages ul li {
+      margin: 20% auto;
+      transform:translateY(-39%)translateX(-5%);
+    }
+    .languages ul li p {
+      padding-top:1%;
+      font-size: 2.2vw;
+      transform:translateX(1%);
+    }
+    .measure-lang .main-span-lang {
+      height: 60px;
+      border-radius: 6px;
+    }
+    .measure-lang .second-span-lang {
+      height: 60px;
+      font-size: 2.2vw;
+      border-top-left-radius: 6px;
+      border-bottom-left-radius: 6px;
+    }
+    #goalContactSection{
+      height:83.7vh;
+    }
+    .message-icon {
+      margin-top:8%;
+      font-size: 11vw;
+    }
+    form{
+      margin-top:5%;
+      transform:scale(1.3);
+    }
+    textarea{
+      height:160px;
+    }
+    input,
+    textarea {
+      border-top: 1.9px solid #203242;
+      border-bottom:1.9px solid #203242;
+    }
+    .submit{
+      margin-top:-7.8%;
+    }
+    .download-cv{
+      padding-top:50%;
+      padding-left:50%;
+      transform:translate(-26%,-14%)scale(1.2);
+    }
+    .goal .goalText {
+      line-height:1.75;
+      transform:translateY(22%);
+    }
+    .goal{
+      height:73.8vh;
+    }
+}
+@media screen and (min-width:1280px){
+  .logo02 a span {
+    position:absolute;
+    top: 30%;
+    left: 20.95%;
+  }
+  .active-nav {
+    border-radius: 6px;
+  }
+  .left-intro .img-div {
+    width: 100%;
+    height: 47.5%;
+    margin-left: 50%;
+    padding-top: 70%;
+    transform:scale(1);
+  }
+  .intro-title{
+    margin-top:15%;
+  }
+  .intro-arrow{
+    margin-top:7%;
+    transform:scale(1.15);
+  }
+  .socialMedia {
+    position: fixed;
+    right: 0.8%;
+    top: 38%;
+    transform:scale(1.15);
+  }
+  .myClock{
+    padding-top:30%;
+  }
+    #day {
+      padding-left:15%;
+    }
+    #aboutSkillsSection {
+      height:99vh;
+    }
+    .logo a span {
+      position: absolute;
+      top: 23%;
+      left: 20.8%;
+    }
+    .about-text{
+      padding-top:23%;
+      font-size:1.36vw;
+      line-height: 1.35;
+    }
+    .skills-measure{
+      margin-top:1%;
+    }
+    .measure .main-span {
+      height: 27.5px;
+      border-radius: 4px;
+    }
+    .measure .second-span {
+      height: 27.4px;
+      font-size: 1.7vw;
+      border-top-left-radius: 4px;
+      border-bottom-left-radius: 4px;
+    }
+    .skills-measure ul li {
+      margin: 6.6% 0;
+    }
+    .skills-measure ul li p {
+      font-size: 1.5vw;
+      transform:translateY(-15%);
+    }
+    #workEducationSection {
+      height:99.2vh;
+    }
+    .education{
+      height:93vh;
+    }
+    .dci-img, .uni-img{
+      margin-left:-17%;
+      transform:scale(1.1);
+    }
+    .dci-img{
+      margin-top:10%;
+    }
+    .uni-img{
+      margin-top:-40%;
+    }
+    .dci .study-text{
+      margin-top: 8%;
+      margin-left:2.5%;
+      font-size: 1.4vw;
+    }
+    .uni .study-text{
+      margin-top: -38%;
+      margin-left:2.5%;
+      font-size: 1.4vw;
+    }
+    .languages ul li {
+      margin: 12% auto;
+      transform:translateY(-18%)translateX(-5%);
+    }
+    .languages ul li p {
+      font-size: 2.2vw;
+    }
+    .measure-lang .main-span-lang {
+      border-radius: 7.5px;
+    }
+    .measure-lang .second-span-lang {
+      font-size: 2.2vw;
+      border-top-left-radius: 7.5px;
+      border-bottom-left-radius: 7.5px;
+    }
+    #goalContactSection{
+      height:80.1vh;
+    }
+    .message-icon {
+      margin-top:1%;
+      font-size: 9vw;
+    }
+    form{
+      margin-top:-1%;
+      transform:scale(1.2);
+    }
+    .submit{
+      margin-top:-6.8%;
+    }
+    .goal{
+      height:67vh;
+    }
+    .download-cv{
+      padding-top:50%;
+      padding-left:50%;
+      transform:translate(-27.5%,-35%)scale(1.2);
+    }
+    .goal .goalText {
+      line-height:1.4;
+      transform:translateY(-25%);
+    }
+    .infoDiv .logo a span {
+      top: 27%;
+      left: 22%;
+    }
+}
+@media screen and (min-width:1360px){
+  .logo02 a span {
+    position: absolute;
+    top: 31%;
+    left: 20.8%;
+  }
+  .left-intro .img-div .img {
+    height: 80%;
+  }
+  .left-intro .img-div {
+    padding-top: 65%;
+  }
+  .intro-title{
+    margin-top:13%;
+  }
+  .myClock{
+    padding-top:27.5%;
+  }
+  .socialMedia {
+    position: fixed;
+    right: 0.8%;
+    top: 40%;
+    transform:scale(1.2);
+  }
+  .intro-arrow{
+    margin-top:5%;
+    transform:scale(1.2);
+  }
+  .logo a span {
+    position: absolute;
+    top: 23%;
+    left: 20.7%;
+  }
+  .studying {
+    margin-left:1%;
+  }
+  .dci .study-text{
+    margin-top: 8%;
+    margin-left:0%;
+    font-size: 1.4vw;
+  }
+  .uni .study-text{
+    margin-top: -37.5%;
+    margin-left:0%;
+    font-size: 1.4vw;
+  }
+  .uni-img, .dci-img{
+    transform:scale(1);
+  }
+  .languages ul li {
+    margin: 11% auto;
+    transform:translateY(-20%)translateX(-5%);
+  }
+  .languages ul li p {
+    font-size:2vw;
+    transform:translate(1%,1%);
+  }
+  .measure-lang .main-span-lang {
+    border-radius: 7.5px;
+  }
+  .measure-lang .second-span-lang {
+    border-top-left-radius: 7.5px;
+    border-bottom-left-radius: 7.5px;
+  }
+  .active-nav {
+    border-radius: 6px;
+  }
+  .right-intro {
+    height:99.45vh;
+  }
+  .skills-measure ul li {
+    margin: 5.7% 0;
+  }
+  .measure .second-span {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+  }
+  .measure .main-span {
+    border-radius: 4px;
+  }
+  .about-text{
+    padding-top:23%;
+    font-size:1.4vw;
+    line-height: 1.2;
+  }
+  #goalContactSection{
+    height:79.4vh;
+  }
+  .message-icon {
+    margin-top:1%;
+    font-size: 9vw;
+  }
+  form{
+    padding-top:3.5%;
+    transform:scale(1.1);
+  }
+  .submit{
+    margin-top:-6.5%;
+  }
+  .download-cv{
+    padding-top:50%;
+    padding-left:50%;
+    transform:translate(-28.7%,-47.5%)scale(1.2);
+  }
+  .goal{
+    height:66vh;
+  }
+  .goal .goalText {
+    line-height:1.4;
+    transform:translateY(-27%);
+  }
+  .infoDiv .logo a span {
+    top: 28%;
+    left: 21.8%;
+  }
+  #aboutSkillsSection {
+    height:99vh;
+  }
+  .education {
+    height:92.3vh;
+  }
+  #workEducationSection {
+    height:99.1vh;
+  }
+}
+@media screen and (min-width:1366px){
+  ::-webkit-scrollbar {
+    width: 1em;
+  }
+  .socialMedia {
+    top: 38%;
+  }
+  .logo a span {
+    position: absolute;
+    top: 22.4%;
+  }
+  .infoDiv .logo a span {
+    left: 21.9%;
+  }
+  .skills-measure ul li {
+    margin: 5.6% 0;
+  }
+  .about-text{
+    padding-top:23%;
+    font-size:1.4vw;
+    line-height: 1.2;
+  }
+  #goalContactSection{
+    height:79.2vh;
+  }
+  .message-icon {
+    margin-top:1%;
+    font-size: 8vw;
+  }
+  form{
+    padding-top:4%;
+    transform:scale(1.1);
+  }
+  .download-cv{
+    padding-top:50%;
+    padding-left:50%;
+    transform:translate(-27%,-50%)scale(1.1);
+  }
+}
+@media screen and (min-width:1400px){
+  ::-webkit-scrollbar {
+    width: 0.8em;
+  }
+  .logo02 a span {
+    position: absolute;
+    left: 20.7%;
+  }
+  .socialMedia {
+    position: fixed;
+    right: 0.9%;
+    top: 39%;
+    transform:scale(1.25);
+  }
+  .myClock{
+    padding-top:32%;
+  }
+  #day {
+    padding-left:16%;
+  }
+  .left-intro .img-div .img {
+    height: 70%;
+  }
+  .left-intro .img-div {
+    padding-top: 80%;
+  }
+  .intro-title{
+    margin-top:16%;
+  }
+  .intro-arrow{
+    margin-top:11%;
+    transform:scale(1.25);
+  }
+  #aboutSkillsSection {
+    height:99.2vh;
+  }
+  .about-text{
+    padding-top:24%;
+    font-size:1.4vw;
+    line-height: 1.43;
+  }
+  .skills-measure{
+    margin-top:-0.5%;
+  }
+  .skills-measure ul li {
+    margin: 9.6% 0;
+  }
+  .measure .second-span {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+  }
+  .measure .main-span {
+    border-radius: 4px;
+  }
+  .education {
+    height:93.2vh;
+  }
+  #workEducationSection {
+    height:99.15vh;
+  }
+  .studying {
+    margin-left:1.7%;
+  }
+  .dci .study-text{
+    margin-top: 15%;
+    margin-left:2%;
+    font-size: 1.4vw;
+  }
+  .uni .study-text{
+    margin-top: -40%;
+    margin-left:2%;
+    font-size: 1.4vw;
+  }
+  .dci-img{
+    margin-top:17%;
+  }
+  .uni-img{
+    margin-bottom:12%;
+  }
+  .uni-img, .dci-img{
+    transform:scale(1.1);
+  }
+  .languages ul li {
+    margin: 13% auto;
+    transform:translateY(-15%)translateX(-5%);
+  }
+  .languages ul li p {
+    font-size: 2.2vw;
+  }
+  .measure-lang .main-span-lang {
+    height: 70px;
+    border-radius: 7.5px;
+  }
+  .measure-lang .second-span-lang {
+    height: 70px;
+    font-size: 2.2vw;
+    border-top-left-radius: 7.5px;
+    border-bottom-left-radius: 7.5px;
+  }
+  #goalContactSection{
+    height:81.8vh;
+  }
+  .goal{
+    height:70vh;
+  }
+  .message-icon {
+    margin-top:1%;
+    font-size: 10vw;
+  }
+  form{
+    padding-top:7%;
+    transform:scale(1.25);
+  }
+  textarea{
+    height:185px;
+  }
+  input,
+  textarea {
+    border-top: 1.9px solid #203242;
+    border-bottom:1.9px solid #203242;
+  }
+  .submit{
+    margin-top:-6.2%;
+  }
+  .download-cv{
+    padding-top:50%;
+    padding-left:50%;
+    transform:translate(-30%,-30%)scale(1.25);
+  }
+  .goal .goalText {
+    line-height:1.5;
+    transform:translateY(-20%);
+  }
+  .infoDiv .logo a span {
+    top:27%;
+    left: 21.9%;
+  }
+}
+@media screen and (min-width:1440px){
+  ::-webkit-scrollbar {
+    width: 0.8em;
+  }
+  .logo02 a span {
+    position: absolute;
+    left: 20.7%;
+  }
+  .active-nav {
+    border-radius: 7px;
+  }
+  .left-intro .img-div .img {
+    height: 70%;
+  }
+  .left-intro .img-div {
+    padding-top: 80%;
+  }
+  .myClock{
+    padding-top:27.5%;
+  }
+  .about-text{
+    padding-top:24%;
+    font-size:1.4vw;
+    line-height: 1.4;
+  }
+  #workEducationSection {
+    height:99.25vh;
+  }
+  .languages ul li {
+    margin: 12.1% auto;
+    transform:translateY(-15%)translateX(-5%);
+  }
+  .languages ul li p {
+    font-size: 2.2vw;
+  }
+  .measure-lang .main-span-lang {
+    height: 72.5px;
+    border-radius: 7.5px;
+  }
+  .measure-lang .second-span-lang {
+    height: 72.5px;
+    font-size: 2.2vw;
+    border-top-left-radius: 7.5px;
+    border-bottom-left-radius: 7.5px;
+  }
+  form{
+    padding-top:7%;
+    transform:scale(1.2);
+  }
+  .submit{
+    margin-top:-6%;
+  }
+  .download-cv{
+    padding-top:50%;
+    padding-left:50%;
+    transform:translate(-30%,-30%)scale(1.2);
+  }
+  .infoDiv .logo a span {
+    top:28%;
+    left: 21.8%;
+  }
+  #goalContactSection{
+    height:81.7vh;
+  }
+  .goal{
+    height:69.7vh;
+  }
+  .skills-measure ul li {
+    margin: 9.5% 0;
+  }
+}
+@media screen and (min-width:1536px){
+  ::-webkit-scrollbar {
+    width: 0.7em;
+    background-color: rgb(212,175,55, 0.45);
+  }
+  .logo02 a span {
+    position:absolute;
+    top: 33%;
+    left: 20.4%;
+  }
+  .logo a span {
+    position:absolute;
+    top: 22%;
+    left: 20.8%;
+  }
+  .infoDiv .logo a span {
+  top: 27%;
+  left: 21.7%;
+  }
+  .left-intro .img-div {
+    width: 100%;
+    height: 60%;
+    margin-left: 50%;
+    padding-top: 49%;
+    transform:scale(0.9);
+  }
+  .myClock{
+    padding-top:1%;
+  }
+  #day{
+    transform:scale(0.7)translateX(-15%);
+  }
+  .right-intro {
+    height:99vh;
+  }
+  .intro-title{
+    margin-top:8%;
+  }
+  .socialMedia {
+    position: fixed;
+    right: 0.45%;
+    top: 40.6%;
+    transform:scale(1.05);
+  }
+  .intro-arrow{
+    transform:scale(1);
+    margin-top:3%;
+  }
+  #aboutSkillsSection {
+    height:98.8vh;
+  }
+  .about-text{
+    padding-top:17.5%;
+    font-size:1.4vw;
+    font-weight:400;
+    line-height: 1.05;
+  }
+  .skills-measure {
+    padding-top: 3%;
+  }
+  .skills-measure ul li {
+    margin: 3.9% 0;
+  }
+  .measure .second-span {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+  }
+  .measure .main-span {
+    border-radius: 4px;
+  }
+  #workEducationSection {
+    height:98.7vh;
+  }
+  .education{
+    height:91vh;
+  }
+  .studying {
+    margin-left:2.9%;
+  }
+  .dci-img{
+    margin-top:5%;
+  }
+  .uni-img{
+    margin-bottom:5%;
+  }
+  .uni-img, .dci-img{
+    transform:scale(1);
+  }
+  .dci .study-text{
+    margin-top: 6%;
+    margin-left:0%;
+    font-size: 1.4vw;
+  }
+  .uni .study-text{
+    margin-top: -34%;
+    margin-left:0%;
+    font-size: 1.4vw;
+  }
+  .languages ul li {
+    margin: 8% auto;
+    transform:translateY(-22.5%)translateX(-3%);
+  }
+  .languages ul li p {
+    font-size: 1.8vw;
+    transform:translateY(5)translateX(0%);
+  }
+  .measure-lang .main-span-lang {
+    height: 65px;
+    border-radius: 7.5px;
+  }
+  .measure-lang .second-span-lang {
+    height: 65px;
+    font-size: 1.8vw;
+    border-top-left-radius: 7.5px;
+    border-bottom-left-radius: 7.5px;
+  }
+  .goal{
+    height:61vh;
+  }
+  .message-icon {
+    margin-top:0%;
+    font-size: 7vw;
+  }
+  form{
+    margin-top:-7.5%;
+    transform:scale(0.97);
+  }
+  .submit{
+    margin-top:-5.6%;
+  }
+  .download-cv{
+    padding-top:50%;
+    padding-left:50%;
+    transform:translate(-26.7%,-60%)scale(1);
+  }
+  .goal .goalText {
+    line-height:1.3;
+    transform:translateY(-50%);
+  }
+  #goalContactSection{
+    height:77vh;
+  }
+  #clock {
+    text-align:center;
+    color:rgb(212,175,55, 0.3);
+    font-weight:lighter;
+    letter-spacing:5px;
+    font-size:1.8vw;
+    font-family: "Montserrat", sans-serif;
+    }
+    #day {
+      padding-left:19%;
+      margin-top:0px;
+      font-size:1.8vw;
+      font-weight:lighter;
+      letter-spacing:2px;
+      color:rgb(212,175,55, 0.3);
+      font-family: "Montserrat", sans-serif;
+    }
+    .active-nav {
+      background: rgba(255, 255, 255, 0.28);
+      padding: 0.2% 1%;
+      border-radius: 8px;
+      box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.8);
+    }
+}
+@media screen and (min-width:1600px){
+  ::-webkit-scrollbar {
+    width: 0.7em;
+  }
+  .logo02 a span {
+    position:absolute;
+    top: 32%;
+    left: 20.3%;
+  }
+  .logo a span {
+    position:absolute;
+    top: 21%;
+    left: 20.65%;
+  }
+  .infoDiv .logo a span {
+  top: 25.9%;
+  left: 21.5%;
+  }
+  .left-intro .img-div {
+    width: 100%;
+    height: 55%;
+    margin-left: 50%;
+    padding-top: 60%;
+    transform:scale(1);
+  }
+  .intro-title{
+    margin-top:12%;
+  }
+  .myClock{
+    padding-top:15%;
+  }
+  .right-intro {
+    height:99.3vh;
+  }
+  .socialMedia {
+    position: fixed;
+    right: 0.8%;
+    top: 40.6%;
+    transform:scale(1.25);
+  }
+  .intro-arrow{
+    margin-top:6%;
+    transform:scale(1.25);
+  }
+  #aboutSkillsSection {
+    height:99.3vh;
+  }
+  .measure .second-span {
+    border-top-left-radius: 3.525px;
+    border-bottom-left-radius: 3.525px;
+  }
+  .measure .main-span {
+    border-radius: 3.525px;
+  }
+  .about-text{
+    padding-top:20%;
+    font-size:1.4vw;
+    font-weight:400;
+    line-height: 1.24;
+  }
+  .skills-measure ul li {
+    margin: 7.2% 0;
+  }
+  #workEducationSection {
+    height:99.35vh;
+  }
+  .education{
+    height:92.5vh;
+  }
+  .studying {
+    margin-left:3.5%;
+  }
+  .dci-img{
+    margin-top:10%;
+  }
+  .uni-img{
+    margin-bottom:5%;
+  }
+  .uni-img, .dci-img{
+    transform:scale(1.1);
+  }
+  .dci .study-text{
+    margin-top: 10%;
+    margin-left:1%;
+    font-size: 1.4vw;
+  }
+  .uni .study-text{
+    margin-top: -34%;
+    margin-left:1%;
+    font-size: 1.4vw;
+  }
+  .languages ul li {
+    margin: 12% auto;
+    transform:translateY(-30%)translateX(-5%);
+  }
+  .languages ul li p {
+    font-size: 2vw;
+    padding-top:1%;
+  }
+  .measure-lang .main-span-lang {
+    height: 70px;
+    border-radius: 7.5px;
+  }
+  .measure-lang .second-span-lang {
+    height: 70px;
+    font-size: 2vw;
+    border-top-left-radius: 7.5px;
+    border-bottom-left-radius: 7.5px;
+  }
+  #goalContactSection{
+    height:80vh;
+  }
+  .goal{
+    height:66vh;
+  }
+  .download-cv{
+    width:400px;
+    padding-top:50%;
+    padding-left:50%;
+    transform:translate(-24.3%,-42.5%)scale(1);
+  }
+  .goal .goalText {
+    line-height:1.3;
+    transform:translateY(-25%);
+  }
+  .message-icon {
+    margin-top:1%;
+    font-size: 8vw;
+  }
+  form{
+    margin-top:-2.5%;
+    transform:scale(1.1);
+  }
+  .submit{
+    margin-top:-5.3%;
+  }
+}
+@media screen and (min-width:1680px){
+  ::-webkit-scrollbar {
+    width: 0.8em;
+  }
+  .logo02 a span {
+    position:absolute;
+    top: 31%;
+    left: 20.1%;
+  }
+  .logo a span {
+    position:absolute;
+    top: 18.5%;
+  }
+  .infoDiv .logo a span {
+    top: 23%;
+    left: 21.4%;
+    }
+  .left-intro {
+    height:99.5vh;
+  }
+  .right-intro {
+    height:99.5vh;
+  }
+  .left-intro .img-div {
+    width: 100%;
+    height: 50%;
+    margin-left: 50%;
+    padding-top: 75%;
+    transform:scale(1);
+  }
+  .intro-title{
+    margin-top:14%;
+  }
+  .myClock{
+    padding-top:27.5%;
+  }
+  #day {
+    padding-left:20%;
+  }
+  .intro-arrow{
+    margin-top:11%;
+    transform:scale(1.45);
+  }
+  .socialMedia {
+    position: fixed;
+    right: 1.1%;
+    top: 40.6%;
+    transform:scale(1.45);
+  }
+  #aboutSkillsSection {
+    height:99.45vh;
+  }
+  .about-text{
+    padding-top:23%;
+    font-size:1.4vw;
+    font-weight:400;
+    line-height: 1.4;
+  }
+  .skills-measure {
+    padding-top: 3.5%;
+  }
+  .skills-measure ul li {
+    margin: 8.5% 0;
+  }
+  .measure .main-span {
+    height: 35px;
+    border-radius: 4.5px;
+  }
+  .measure .second-span {
+    height: 35px;
+    font-size: 1.8vw;
+    font-weight:400;
+    border-top-left-radius: 4.5px;
+    border-bottom-left-radius: 4.5px;
+  }
+  #workEducationSection {
+    height:99.2vh;
+  }
+  .education{
+    height:93vh;
+  }
+  .studying {
+    margin-left:3.9%;
+  }
+  .dci-img{
+    margin-top:15%;
+  }
+  .uni-img{
+    margin-bottom:5%;
+  }
+  .uni-img, .dci-img{
+    transform:scale(1.3);
+  }
+  .dci .study-text{
+    margin-top: 15%;
+    margin-left:3.5%;
+    font-size: 1.5vw;
+  }
+  .uni .study-text{
+    margin-top: -34%;
+    margin-left:3.5%;
+    font-size: 1.5vw;
+  }
+  .languages ul li {
+    margin: 15% auto;
+    transform:translateY(-39.8%)translateX(-5%);
+  }
+  .languages ul li p {
+    font-size: 2.1vw;
+    padding-top:1%;
+    padding-left:-1%;
+  }
+  .measure-lang .main-span-lang {
+    height: 80px;
+    border-radius: 8.25px;
+  }
+  .measure-lang .second-span-lang {
+    height: 80px;
+    font-size: 2vw;
+    border-top-left-radius: 8.25px;
+    border-bottom-left-radius: 8.25px;
+  }
+  #goalContactSection{
+    height:82.4vh;
+  }
+  .goal{
+    height:70vh;
+  }
+  .message-icon {
+    margin-top:2%;
+    font-size: 9vw;
+  }
+  form{
+    margin-top:0.2%;
+    transform:scale(1.25);
+  }
+  textarea{
+    height:207px;
+  }
+  .submit{
+    margin-top:-5%;
+  }
+  .download-cv{
+    width:400px;
+    padding-top:50%;
+    padding-left:50%;
+    transform:translate(-26.5%,-30%)scale(1.1);
+  }
+  .goal .goalText {
+    line-height:1.4;
+    transform:translateY(-9%);
+  }
+}
+@media screen and (min-width:1920px){
+  .logo02 a span {
+    position:absolute;
+    top: 33.5%;
+    left: 19.85%;
+  }
+  .active-nav {
+    border-radius: 9px;
+  }
+  .left-intro .img-div {
+    width: 100%;
+    height: 55%;
+    margin-left: 45%;
+    padding-top: 60%;
+    transform:scale(1);
+  }
+  .intro-title{
+    margin-top:11%;
+  }
+  .intro-arrow{
+    margin-top:9%;
+    transform:scale(1.4);
+  }
+  .socialMedia {
+    position: fixed;
+    right: 1.05%;
+    top: 42%;
+    transform:scale(1.5);
+  }
+  ::-webkit-scrollbar {
+    width: 0.9em;
+    background-color: rgb(212,175,55, 0.45);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgb(212,175,55, 0.65);
+  }
+  .myClock{
+    padding-top:17%;
+  }
+  #clock {
+    text-align:center;
+    color:rgb(212,175,55, 0.3);
+    font-weight:lighter;
+    letter-spacing:5px;
+    font-size:1.8vw;
+    font-family: "Montserrat", sans-serif;
+    }
+    #day {
+      padding-left:20%;
+      margin-top:0px;
+      font-size:1.8vw;
+      font-weight:lighter;
+      letter-spacing:2px;
+      color:rgb(212,175,55, 0.3);
+      font-family: "Montserrat", sans-serif;
+    }
+    .logo a span {
+      position: absolute;
+      top: 20%;
+      left: 20.4%;
+    }
+    .about-text{
+      padding-top:22%;
+      font-size:1.4vw;
+      line-height: 1.25;
+    }
+    .measure .main-span {
+      height: 35px;
+      border-radius: 4px;
+    }
+    .measure .second-span {
+      height: 35px;
+      border-top-left-radius: 4px;
+      border-bottom-left-radius: 4px;
+    }
+    .skills-measure ul li {
+      margin: 6.9% 0;
+    }
+    .languages ul li {
+      margin: 10% auto;
+      transform:translateY(5%)translateX(-5%);
+    }
+    .languages ul li p {
+      font-size: 2vw;
+      padding-top:1%;
+    }
+    .measure-lang .main-span-lang {
+      height: 90px;
+      border-radius: 8px;
+    }
+    .measure-lang .second-span-lang {
+      height: 90px;
+      font-size: 2vw;
+      border-top-left-radius: 8px;
+      border-bottom-left-radius: 8px;
+    }
+    .studying {
+      margin-top:5%;
+      margin-left:5.8%;
+    }
+    .dci-img{
+      margin-top:8%;
+    }
+    .uni-img, .dci-img{
+      transform:scale(1.4);
+    }
+    .uni{
+      margin-bottom:5%;
+    }
+    .dci .study-text{
+      margin-top: 7%;
+      margin-left:4%;
+      font-size: 1.4vw;
+    }
+    .uni .study-text{
+      margin-top: -35%;
+      margin-left:4%;
+      font-size: 1.4vw;
+    }
+    .education{
+      height:92.3vh;
+    }
+    #workEducationSection {
+      height:99.15vh;
+    }
+    .languages ul li {
+      margin-top: 7.5%;
+    }
+    #goalContactSection{
+      height:80.9vh;
+    }
+    .goal{
+      height:67vh;
+    }
+    .message-icon {
+      margin-top:1%;
+      font-size: 8vw;
+    }
+    form{
+      margin-top:-1%;
+      transform:scale(1.2);
+    }
+    .submit{
+      margin-top:-4.2%;
+    }
+    .download-cv{
+      width:400px;
+      padding-top:50%;
+      padding-left:50%;
+      transform:translate(-29%,-40%)scale(1.1);
+    }
+    .goal .goalText {
+      line-height:1.3;
+      transform:translateY(-27%);
+    }
+    .infoDiv .logo a span {
+      top: 24.3%;
+      left: 21.05%;
+      }
+}
+@media screen and (min-width:2560px){
+  ::-webkit-scrollbar {
+    width: 1em;
+    background-color: rgb(212,175,55, 0.45);
+  }
+  .logo02 a span {
+    position:absolute;
+    top: 35%;
+    left: 19.1%;
+  }
+  .logo a span {
+    position: absolute;
+    top: 17%;
+    left: 20.05%;
+  }
+  .infoDiv .logo a span {
+    top: 20.9%;
+    left: 20.7%;
+    }
+  .active-nav {
+    border-radius: 12px;
+  }
+  .left-intro .img-div {
+    width: 100%;
+    height: 55%;
+    margin-left: 45%;
+    padding-top: 65%;
+    transform:scale(1);
+  }
+  .intro-title{
+    margin-top:12%;
+  }
+  .myClock{
+    padding-top:13%;
+  }
+  #day {
+    padding-left:23%;
+  }
+  .intro-arrow{
+    margin-top:8%;
+    transform:scale(2);
+  }
+  .socialMedia {
+    position: fixed;
+    right: 1.5%;
+    top: 45%;
+    transform:scale(2.15);
+  }
+  #aboutSkillsSection {
+    height:99.55vh;
+  }
+  .skills-measure ul li {
+    margin: 6.5% 0;
+  }
+  .measure .main-span {
+    height: 50px;
+    border-radius: 4px;
+  }
+  .measure .second-span {
+    height: 50px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+  }
+  #workEducationSection {
+    height:99.4vh;
+  }
+  .education{
+    height:92.5vh;
+  }
+  .studying {
+    margin-top:5%;
+    margin-left:8.5%;
+  }
+  .dci-img{
+    margin-top:15%;
+  }
+  .uni-img, .dci-img{
+    transform:scale(2);
+  }
+  .uni{
+    margin-bottom:5%;
+  }
+  .dci .study-text{
+    margin-top: 12%;
+    margin-left:8%;
+    font-size: 1.4vw;
+  }
+  .uni .study-text{
+    margin-top: -35%;
+    margin-left:8%;
+    font-size: 1.4vw;
+  }
+  .languages ul li {
+    margin: 10% auto;
+    transform:translateY(-12%)translateX(-5%);
+  }
+  .languages ul li p {
+    font-size: 2vw;
+    padding-top:1%;
+  }
+  .measure-lang .main-span-lang {
+    height: 120px;
+    border-radius: 7.5px;
+  }
+  .measure-lang .second-span-lang {
+    height: 120px;
+    font-size: 2vw;
+    border-top-left-radius: 7.5px;
+    border-bottom-left-radius: 7.5px;
+  }
+  #goalContactSection{
+    height:81.8vh;
+  }
+  .goal{
+    height:68vh;
+  }
+  .message-icon {
+    margin-top:0%;
+    font-size: 9vw;
+  }
+  form{
+    margin-top:-2%;
+    transform:scale(1.2);
+  }
+  textarea{
+    height:285px;
+  }
+  .submit{
+    margin-top:-3%;
+  }
+  .download-cv{
+    width:500px;
+    padding-top:50%;
+    padding-left:50%;
+    transform:translate(-30%,-45%)scale(1.1);
+  }
+  .goal .goalText {
+    line-height:1.5;
+    transform:translateY(-25%);
+  }
+}
+@media screen and (min-width:2880px){
+  ::-webkit-scrollbar {
+    width: 1.3em;
+  }
+  .active-nav {
+    border-radius: 15px;
+  }
+  .logo02 a span {
+    position:absolute;
+    top: 36%;
+    left: 18.95%;
+  }
+  .logo a span {
+    position: absolute;
+    top: 15.7%;
+    left: 19.8%;
+  }
+  .infoDiv .logo a span {
+    top: 19%;
+    left: 20.5%;
+    }
+  .left-intro .img-div {
+    width: 100%;
+    height: 50%;
+    margin-left: 45%;
+    padding-top: 75%;
+    transform:scale(1);
+  }
+  .intro-title{
+    margin-top:16%;
+  }
+  .socialMedia {
+    position: fixed;
+    right: 1.6%;
+    top: 48%;
+    transform:scale(2.4);
+  }
+  .intro-arrow{
+    margin-top:11%;
+    transform:scale(2.4);
+  }
+  .myClock{
+    padding-top:30%;
+  }
+  #clock {
+    font-size:1.8vw;
+    }
+    #day {
+      font-size:1.8vw;
+      padding-left:20%;
+    }
+    .right-intro {
+      height:99.7vh;
+    }
+    .left-intro {
+      height:99.7vh;
+    }
+    .about-text{
+      padding-top:22%;
+      font-size:1.4vw;
+      line-height: 1.43;
+    }
+    #aboutSkillsSection {
+      height:99.77vh;
+    }
+    .skills-measure ul li {
+      margin: 8.9% 0;
+    }
+    .measure .main-span {
+      height: 60px;
+      border-radius: 4px;
+    }
+    .measure .second-span {
+      height: 60px;
+      border-top-left-radius: 4px;
+      border-bottom-left-radius: 4px;
+    }
+    #workEducationSection {
+      height:99.5vh;
+    }
+    .education{
+      height:93.2vh;
+    }
+    .studying {
+      margin-top:5%;
+      margin-left:9.5%;
+    }
+    .dci-img{
+      margin-top:20%;
+    }
+    .uni{
+      margin-bottom:5%;
+    }
+    .uni-img, .dci-img{
+      transform:scale(2.3);
+    }
+    .dci .study-text{
+      margin-top: 17%;
+      margin-left:9%;
+      font-size: 1.4vw;
+    }
+    .uni .study-text{
+      margin-top: -35%;
+      margin-left:9%;
+      font-size: 1.4vw;
+    }
+    .languages ul li {
+      margin: 13% auto;
+      transform:translateY(-4%)translateX(-5%);
+    }
+    .languages ul li p {
+      font-size: 2vw;
+      padding-top:1%;
+    }
+    .measure-lang .main-span-lang {
+      height: 135px;
+      border-radius: 7.5px;
+    }
+    .measure-lang .second-span-lang {
+      height: 135px;
+      font-size: 2vw;
+      border-top-left-radius: 7.5px;
+      border-bottom-left-radius: 7.5px;
+    }
+    #goalContactSection{
+      height:83.9vh;
+    }
+    .goal{
+      height:71.5vh;
+    }
+    .message-icon {
+      margin-top:0%;
+      font-size: 9.5vw;
+    }
+    form{
+      margin-top:0.5%;
+      transform:scale(1.24);
+    }
+    input,
+textarea {
+  border-top: 2.5px solid #203242;
+  border-bottom:2.5px solid #203242;
+}
+    textarea{
+      height:428px;
+    }
+    .submit{
+      margin-top:-2.5%;
+    }
+    .download-cv{
+      width:600px;
+      padding-top:50%;
+      padding-left:50%;
+      transform:translate(-29.5%,-35%)scale(1.15);
+    }
+    .goal .goalText {
+      line-height:1.5;
+      transform:translateY(37.5%);
+    }
+}
+@media screen and (min-width:3000px){
+  ::-webkit-scrollbar {
+    width: 1.4em;
+  }
+  .logo a span {
+    position: absolute;
+    top: 15.5%;
+    left: 19.8%;
+  }
+  .left-intro .img-div {
+    width: 100%;
+    height: 45%;
+    margin-left: 45%;
+    padding-top: 85%;
+    transform:scale(1);
+  }
+  .intro-title{
+    margin-top:17%;
+  }
+  .socialMedia {
+    position: fixed;
+    right: 1.8%;
+    top: 45%;
+    transform:scale(2.7);
+  }
+  .intro-arrow{
+    margin-top:15%;
+    transform:scale(2.6);
+  }
+  .myClock{
+    padding-top:46%;
+  }
+  #day {
+    padding-left:21%;
+  }
+  #aboutSkillsSection {
+    height:99.65vh;
+  }
+  .about-text{
+    padding-top:25%;
+    font-size:1.4vw;
+    line-height: 1.54;
+  }
+  .skills-measure ul li {
+    margin: 10.4% 0;
+  }
+  .measure .main-span {
+    height: 65px;
+    border-radius: 4px;
+  }
+  .measure .second-span {
+    height: 65px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+  }
+  #workEducationSection {
+    height:99.6vh;
+  }
+  .education{
+    height:93.7vh;
+  }
+  .studying {
+    margin-top:5%;
+    margin-left:9.7%;
+  }
+  .dci-img{
+    margin-top:20%;
+  }
+  .uni{
+    margin-bottom:5%;
+  }
+  .uni-img, .dci-img{
+    transform:scale(2.5);
+  }
+  .dci .study-text{
+    margin-top: 18%;
+    margin-left:10.5%;
+    font-size: 1.4vw;
+  }
+  .uni .study-text{
+    margin-top: -35%;
+    margin-left:10.5%;
+    font-size: 1.4vw;
+  }
+  .languages ul li {
+    margin: 17% auto;
+    transform:translateY(-41%)translateX(-5%);
+  }
+  .languages ul li p {
+    font-size: 2.1vw;
+    padding-top:1%;
+  }
+  .measure-lang .main-span-lang {
+    height: 140px;
+    border-radius: 7.5px;
+  }
+  .measure-lang .second-span-lang {
+    height: 140px;
+    font-size: 2.1vw;
+    border-top-left-radius: 7.5px;
+    border-bottom-left-radius: 7.5px;
+  }
+  #goalContactSection{
+    height:84.9vh;
+  }
+  .goal{
+    height:73.2vh;
+  }
+  .message-icon {
+    margin-top:0%;
+    font-size: 9.5vw;
+  }
+  form{
+    margin-top:1.2%;
+    transform:scale(1.24);
+  }
+  input,
+textarea {
+border-top: 3px solid #203242;
+border-bottom:3px solid #203242;
+}
+  textarea{
+    height:540px;
+  }
+  .submit{
+    margin-top:-2.4%;
+  }
+  .download-cv{
+    width:600px;
+    padding-top:50%;
+    padding-left:50%;
+    transform:translate(-31.5%,-40%)scale(1.2);
+  }
+  .goal .goalText {
+    line-height:1.5;
+    transform:translateY(80%);
+  }
+}
+@media screen and (min-width:3200px){
+  ::-webkit-scrollbar {
+    width: 1.3em;
+  }
+  .logo02 a span {
+    position:absolute;
+    top: 36.9%;
+    left: 18.8%;
+  }
+  .logo a span {
+    position: absolute;
+    top: 15.5%;
+    left: 19.82%;
+  }
+  .infoDiv .logo a span {
+    top: 19%;
+    left: 20.4%;
+    }
+  .left-intro .img-div {
+    width: 95%;
+    height: 50%;
+    margin-left: 50%;
+    padding-top: 70%;
+    transform:scale(1);
+  }
+  .intro-title{
+    margin-top:12%;
+  }
+  .socialMedia {
+    position: fixed;
+    right: 1.54%;
+    top: 47.5%;
+    transform:scale(2.5);
+  }
+  .intro-arrow{
+    margin-top:9%;
+    transform:scale(2.4);
+  }
+  .myClock{
+    padding-top:21%;
+  }
+  #day {
+    padding-left:22%;
+  }
+  #aboutSkillsSection {
+    height:99.65vh;
+  }
+  .about-text{
+    padding-top:23%;
+    font-size:1.4vw;
+    line-height: 1.235;
+  }
+  .skills-measure ul li {
+    margin: 6.4% 0;
+  }
+  .measure .main-span {
+    height: 65px;
+    border-radius: 4px;
+  }
+  .measure .second-span {
+    height: 65px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+  }
+  #workEducationSection {
+    height:99.7vh;
+  }
+  .education{
+    height:93vh;
+  }
+  .studying {
+    margin-top:5%;
+    margin-left:10.3%;
+  }
+  .dci-img{
+    margin-top:15%;
+  }
+  .uni{
+    margin-bottom:5%;
+  }
+  .uni-img, .dci-img{
+    transform:scale(2.4);
+  }
+  .dci .study-text{
+    margin-top: 13%;
+    margin-left:8.7%;
+    font-size: 1.4vw;
+  }
+  .uni .study-text{
+    margin-top: -35%;
+    margin-left:8.7%;
+    font-size: 1.4vw;
+  }
+  .languages ul li {
+    margin: 11% auto;
+    transform:translateY(-20%)translateX(-5%);
+  }
+  .languages ul li p {
+    font-size: 2.1vw;
+    transform:translateY(0%)translateX(0.5%);
+  }
+  .measure-lang .main-span-lang {
+    height: 140px;
+    border-radius: 7.5px;
+  }
+  .measure-lang .second-span-lang {
+    height: 140px;
+    font-size: 2.1vw;
+    border-top-left-radius: 7.5px;
+    border-bottom-left-radius: 7.5px;
+  }
+  #goalContactSection{
+    height:82.4vh;
+  }
+  .goal{
+    height:68.5vh;
+  }
+  .message-icon {
+    margin-top:-1%;
+    font-size: 9vw;
+  }
+  form{
+    margin-top:-0.8%;
+    transform:scale(1.2);
+  }
+  input,
+textarea {
+border-top: 3px solid #203242;
+border-bottom:3px solid #203242;
+}
+  textarea{
+    height:385px;
+  }
+  .submit{
+    margin-top:-2.25%;
+  }
+  .download-cv{
+    width:650px;
+    padding-top:50%;
+    padding-left:50%;
+    transform:translate(-32%,-55%)scale(1.2);
+  }
+  .goal .goalText {
+    line-height:1.5;
+    transform:translateY(0%);
+  }
+}
+@media screen and (min-width:3840px){
+  ::-webkit-scrollbar {
+    width: 1.4em;
+  }
+  .logo02 a span {
+    position:absolute;
+    top: 36%;
+    left: 18.6%;
+  }
+  .logo a span {
+    position: absolute;
+    top: 13%;
+    left: 19.82%;
+  }
+  .infoDiv .logo a span {
+    top: 16%;
+    left: 20.2%;
+    }
+  .left-intro .img-div {
+    width: 95%;
+    height: 50%;
+    margin-left: 50%;
+    padding-top: 70%;
+    transform:scale(1);
+  }
+  .intro-title{
+    margin-top:12%;
+  }
+  .socialMedia {
+    position: fixed;
+    right: 1.6%;
+    top: 47.5%;
+    transform:scale(3);
+  }
+  .intro-arrow{
+    margin-top:9%;
+    transform:scale(2.8);
+  }
+  .myClock{
+    padding-top:27%;
+  }
+  #Clock{
+    font-size:2em;
+  }
+  #day {
+    font-size:2em;
+    padding-left:26%;
+    transform:scale(1.4)translateX(4%)translateY(-15%);
+  }
+  #aboutSkillsSection {
+    height:99.67vh;
+  }
+  .about-text{
+    padding-top:23%;
+    font-size:1.4vw;
+    line-height: 1.237;
+  }
+  .skills-measure ul li {
+    margin: 6.75% 0;
+  }
+  .measure .main-span {
+    height: 75px;
+    border-radius: 4px;
+  }
+  .measure .second-span {
+    height: 75px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+  }
+  #workEducationSection {
+    height:99.7vh;
+  }
+  .education{
+    height:93vh;
+  }
+  .studying {
+    margin-top:5%;
+    margin-left:11.1%;
+  }
+  .dci-img{
+    margin-top:15%;
+  }
+  .uni{
+    margin-bottom:5%;
+  }
+  .uni-img, .dci-img{
+    transform:scale(2.8);
+  }
+  .dci .study-text{
+    margin-top: 13%;
+    margin-left:9.2%;
+    font-size: 1.4vw;
+  }
+  .uni .study-text{
+    margin-top: -35%;
+    margin-left:9.2%;
+    font-size: 1.4vw;
+  }
+  .languages ul li {
+    margin: 12% auto;
+    transform:translateY(-35%)translateX(-5%);
+  }
+  .languages ul li p {
+    font-size: 2.1vw;
+    transform:translateY(0.5%)translateX(0.4%);
+  }
+  .measure-lang .main-span-lang {
+    height: 160px;
+    border-radius: 7.5px;
+  }
+  .measure-lang .second-span-lang {
+    height: 160px;
+    font-size: 2.1vw;
+    border-top-left-radius: 7.5px;
+    border-bottom-left-radius: 7.5px;
+  }
+  #goalContactSection{
+    height:82.8vh;
+  }
+  .goal{
+    height:68.8vh;
+  }
+  .message-icon {
+    margin-top:-1%;
+    font-size: 9vw;
+  }
+  form{
+    margin-top:-0.8%;
+    transform:scale(1.2);
+  }
+  input,
+textarea {
+border-top: 3px solid #203242;
+border-bottom:3px solid #203242;
+}
+  textarea{
+    height:470px;
+  }
+  .submit{
+    margin-top:-1.6%;
+  }
+  .download-cv{
+    width:750px;
+    padding-top:50%;
+    padding-left:50%;
+    transform:translate(-32.7%,-55%)scale(1.2);
+  }
+  .goal .goalText {
+    line-height:1.5;
+    transform:translateY(4%);
+  }
+}
