@@ -2204,22 +2204,22 @@ textarea {
   }
   .left-intro .img-div {
     width: 100%;
-    height: 55%;
+    height: 48%;
     margin-left: 45%;
-    padding-top: 65%;
+    padding-top: 70%;
     transform:scale(1);
   }
   .intro-title{
-    margin-top:12%;
+    margin-top:15%;
   }
   .myClock{
-    padding-top:13%;
+    padding-top:40%;
   }
   #day {
     padding-left:23%;
   }
   .intro-arrow{
-    margin-top:8%;
+    margin-top:12%;
     transform:scale(2);
   }
   .socialMedia {
@@ -2228,11 +2228,16 @@ textarea {
     top: 45%;
     transform:scale(2.15);
   }
+  .about-text{
+    padding-top:23%;
+    font-size:1.4vw;
+    line-height: 1.45;
+  }
   #aboutSkillsSection {
-    height:99.55vh;
+    height:99.60vh;
   }
   .skills-measure ul li {
-    margin: 6.5% 0;
+    margin: 9.5% 0;
   }
   .measure .main-span {
     height: 50px;
@@ -2244,10 +2249,10 @@ textarea {
     border-bottom-left-radius: 4px;
   }
   #workEducationSection {
-    height:99.4vh;
+    height:99.5vh;
   }
   .education{
-    height:92.5vh;
+    height:93.2vh;
   }
   .studying {
     margin-top:5%;
@@ -2273,8 +2278,8 @@ textarea {
     font-size: 1.4vw;
   }
   .languages ul li {
-    margin: 10% auto;
-    transform:translateY(-12%)translateX(-5%);
+    margin: 15% auto;
+    transform:translateY(-40%)translateX(-5%);
   }
   .languages ul li p {
     font-size: 2vw;
@@ -2291,10 +2296,10 @@ textarea {
     border-bottom-left-radius: 7.5px;
   }
   #goalContactSection{
-    height:81.8vh;
+    height:83.5vh;
   }
   .goal{
-    height:68vh;
+    height:71vh;
   }
   .message-icon {
     margin-top:0%;
@@ -2305,20 +2310,20 @@ textarea {
     transform:scale(1.2);
   }
   textarea{
-    height:285px;
+    height:450px;
   }
   .submit{
     margin-top:-3%;
   }
   .download-cv{
     width:500px;
-    padding-top:50%;
+    padding-top:55%;
     padding-left:50%;
-    transform:translate(-30%,-45%)scale(1.1);
+    transform:translate(-34%,-45%)scale(1.3);
   }
   .goal .goalText {
     line-height:1.5;
-    transform:translateY(-25%);
+    transform:translateY(20%);
   }
 }
 @media screen and (min-width:2880px){
