@@ -1584,7 +1584,7 @@ textarea {
   left: 21.7%;
   }
   .left-intro .img-div {
-    width: 100%;
+    width: 99%;
     height: 60%;
     margin-left: 50%;
     padding-top: 49%;
@@ -1600,7 +1600,7 @@ textarea {
     height:99vh;
   }
   .intro-title{
-    margin-top:8%;
+    margin-top:6.5%;
   }
   .socialMedia {
     position: fixed;
@@ -1610,7 +1610,7 @@ textarea {
   }
   .intro-arrow{
     transform:scale(1);
-    margin-top:3%;
+    margin-top:2%;
   }
   #aboutSkillsSection {
     height:98.8vh;
