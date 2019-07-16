@@ -746,63 +746,71 @@ footer {
 
 }
 @media screen and (min-width:1024px){
+  ::-webkit-scrollbar {
+    width: 0.5em;
+  }
+  .right-intro{
+    height:99.5vh;
+  }
   .logo02 a span {
     position:absolute;
     top: 27%;
-    left: 21%;
+    left: 21.23%;
     font-size: 1.57vw;
     transform: scaleX(1.05)
   }
   .logo a span{
     position:absolute;
-    top: 25%;
-    left: 20.71%;
+    top: 24.4%;
+    left: 20.6%;
     font-size:1.57vw;
     transform:scaleX(1.05);
   }
   .infoDiv .logo a span {
-    top: 29.5%;
-    left: 22%;
+    top: 29.8%;
+    left: 22.3%;
   }
   .active-nav{
     border-radius: 5px;
   }
   .myClock{
-    padding-top:36%;
+    padding-top:39%;
     margin: 0 auto;
   }
+  #clock{
+    transform:translateX(0px);
+  }
   #day{
-    transform:translateX(-3%);
-    transform:scale(0.6)translateX(-22%);
+    transform:scale(0.7)translateX(-16%);
   }
   .intro-title{
-    margin-top:17%;
+    margin-top:14%;
   }
    .left-intro .img-div .img{
     width: 100%;
     height: 75%;
-    transform:scale(1.1);
+    transform:scale(1);
   }
   .left-intro .img-div{
     padding-top:75%;
   }
   .intro-arrow{
-    transform:scale(0.9);
-    margin-top:7%;
+    margin-top:9%;
+    transform:scale(0.8);
   }
   .socialMedia {
     position: fixed;
-    right: 0.3%;
+    right: 0%;
     top: 34%;
-    transform:scale(0.9);
+    transform:scale(0.8);
   }
   #aboutSkillsSection {
-    height:99vh;
+    height:99.08vh;
   }
   .about-text{
     padding-top:12%;
     font-size:1.35vw;
-    line-height: 1.73;
+    line-height: 1.737;
   }
   .skills-measure {
     display: flex;
@@ -812,80 +820,86 @@ footer {
     list-style: none;
     display: flex;
     flex-direction: column;
-    margin: 7.85% 0;
+    margin: 7.05% 0;
   }
   .measure .second-span {
-    height: 22px;
+    height: 24px;
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
   }
   .measure .main-span {
-    height: 22px;
+    height: 24px;
     border-radius: 3px;
   }
   .dci-img{
     margin: 8% 2% 0 -20%;
-    transform:scale(0.8);
+    transform:scale(0.7);
   }
   .uni-img{
     margin: 0 2% 8% -21%;
-    transform:scale(0.8);
+    transform:scale(0.7);
   }
   .dci .study-text{
     margin-top:7%;
-    margin-left:-4%;
+    margin-left:-6.5%;
     font-size: 1.4vw;
   }
   .uni .study-text{
     margin-top:3%;
-    margin-left:-4%;
+    margin-left:-6.5%;
     font-size: 1.4vw;
+  }
+  #workEducationSection{
+    height:99.05vh;
   }
   .education{
     height:93vh;
   }
   .languages ul li {
-    margin: 12% auto;
+    margin: 13% auto;
     transform:translateY(-15%)translateX(-5%);
   }
   .languages ul li p {
-    font-size: 2.2vw;
+    font-size: 2vw;
     padding-top:1%;
   }
   .measure-lang .main-span-lang {
-    height: 50px;
-    border-radius: 6px;
+    height: 45px;
+    border-radius: 4px;
   }
   .measure-lang .second-span-lang {
-    height: 50px;
+    height: 45px;
     font-size: 2.2vw;
-    border-top-left-radius: 6px;
-    border-bottom-left-radius: 6px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
   }
   #goalContactSection{
     height:79.5vh;
   }
   .message-icon {
     margin-top:3%;
-    font-size: 9.5vw;
+    font-size: 8.5vw;
   }
   form{
-    padding-top:5%;
-    transform:scale(1.25);
+    padding-top:3%;
+    transform:scale(1.2);
   }
   .submit{
     margin-top:-9.1%;
   }
   input,
 textarea {
-  border-top: 1.9px solid #203242;
-  border-bottom:1.9px solid #203242;
+  border-top: 1.2px solid #203242;
+  border-bottom:1.2px solid #203242;
+}
+textarea{
+  height:135px;
 }
   .download-cv{
     padding-top:30%;
     padding-left:20%;
     transform:translate(-50%,-30%);
-    transform:scale(1.1);
+    transform:scale(1);
   }
   .goal .goalText {
     line-height:1.5;
@@ -894,7 +908,7 @@ textarea {
 }
 @media screen and (min-width:1152px){
   ::-webkit-scrollbar {
-    width: 1em;
+    width: 0.6em;
   }
   .logo02 a span {
     position:absolute;
@@ -906,12 +920,12 @@ textarea {
   .logo a span {
     position: absolute;
     top: 23%;
-    left: 21%;
+    left: 20.9%;
     font-size:1.5vw;
     transform:scaleX(1.1);
   }
   .infoDiv .logo a span {
-    top: 27%;
+    top: 27.2%;
     left: 22.35%;
   }
   .active-nav{
@@ -924,20 +938,20 @@ textarea {
     transform:scale(1);
   }
   .intro-title{
-    margin-top:23%;
+    margin-top:21%;
   }
   .intro-arrow{
-    margin-top:15%;
-    transform:scale(1.15);
+    margin-top:16%;
+    transform:scale(1);
   }
   .socialMedia {
     position: fixed;
-    right: 0.9%;
+    right: 0.7%;
     top: 40.6%;
-    transform:scale(1.15);
+    transform:scale(1.05);
   }
   .myClock{
-    padding-top:70%;
+    padding-top:75%;
   }
     #day {
       padding-left:15%;
@@ -947,25 +961,25 @@ textarea {
     }
     .about-text{
       padding-top:28%;
-      font-size:1.35vw;
-      line-height: 1.75;
+      font-size:1.36vw;
+      line-height: 1.787;
       transform:scaleY(1.2);
     }
     #aboutSkillsSection {
       height:99.25vh;
     }
     .measure .main-span {
-      height: 27.5px;
+      height: 28px;
       border-radius: 3px;
     }
     .measure .second-span {
-      height: 27.5px;
+      height: 28px;
       font-size: 1.8vw;
       border-top-left-radius: 3px;
       border-bottom-left-radius: 3px;
     }
     .skills-measure ul li {
-      margin: 11.8% 0;
+      margin: 11.6% 0;
     }
     .skills-measure ul li p {
       font-size: 1.65vw;
@@ -976,7 +990,7 @@ textarea {
     }
     .dci-img, .uni-img{
       margin-left:-19%;
-      transform:scale(1.1);
+      transform:scale(1);
     }
     .dci-img{
       margin-top:17.5%;
@@ -986,49 +1000,49 @@ textarea {
     }
     .dci .study-text{
       margin-top: 15%;
-      margin-left:2%;
+      margin-left:0%;
       font-size: 1.4vw;
     }
     .uni .study-text{
       margin-top: -32%;
-      margin-left:2%;
+      margin-left:0%;
       font-size: 1.4vw;
     }
     #workEducationSection {
       height:99vh;
     }
     .languages ul li {
-      margin: 20% auto;
+      margin: 20.8% auto;
       transform:translateY(-39%)translateX(-5%);
     }
     .languages ul li p {
       padding-top:1%;
-      font-size: 2.2vw;
+      font-size: 2vw;
       transform:translateX(1%);
     }
     .measure-lang .main-span-lang {
-      height: 60px;
-      border-radius: 6px;
+      height: 55px;
+      border-radius: 4px;
     }
     .measure-lang .second-span-lang {
-      height: 60px;
+      height: 55px;
       font-size: 2.2vw;
-      border-top-left-radius: 6px;
-      border-bottom-left-radius: 6px;
+      border-top-left-radius: 4px;
+      border-bottom-left-radius: 4px;
     }
     #goalContactSection{
       height:83.7vh;
     }
     .message-icon {
-      margin-top:8%;
-      font-size: 11vw;
+      margin-top:5%;
+      font-size: 9vw;
     }
     form{
-      margin-top:5%;
-      transform:scale(1.3);
+      margin-top:3%;
+      transform:scale(1.2);
     }
     textarea{
-      height:160px;
+      height:240px;
     }
     input,
     textarea {
@@ -1041,7 +1055,7 @@ textarea {
     .download-cv{
       padding-top:50%;
       padding-left:50%;
-      transform:translate(-26%,-14%)scale(1.2);
+      transform:translate(-24.5%,-14%)scale(1.1);
     }
     .goal .goalText {
       line-height:1.75;
@@ -1062,42 +1076,42 @@ textarea {
   }
   .left-intro .img-div {
     width: 100%;
-    height: 47.5%;
+    height: 45%;
     margin-left: 50%;
-    padding-top: 70%;
+    padding-top: 71%;
     transform:scale(1);
   }
   .intro-title{
-    margin-top:15%;
+    margin-top:14%;
   }
   .intro-arrow{
-    margin-top:7%;
-    transform:scale(1.15);
+    margin-top:10%;
+    transform:scale(1);
   }
   .socialMedia {
     position: fixed;
-    right: 0.8%;
+    right: 0.45%;
     top: 38%;
-    transform:scale(1.15);
+    transform:scale(1);
   }
   .myClock{
-    padding-top:30%;
+    padding-top:47.5%;
   }
     #day {
-      padding-left:15%;
+      padding-left:14%;
     }
     #aboutSkillsSection {
-      height:99vh;
+      height:99.1vh;
     }
     .logo a span {
       position: absolute;
       top: 23%;
-      left: 20.8%;
+      left: 21%;
     }
     .about-text{
       padding-top:23%;
       font-size:1.36vw;
-      line-height: 1.35;
+      line-height: 1.45;
     }
     .skills-measure{
       margin-top:1%;
@@ -1113,7 +1127,7 @@ textarea {
       border-bottom-left-radius: 4px;
     }
     .skills-measure ul li {
-      margin: 6.6% 0;
+      margin: 7.8% 0;
     }
     .skills-measure ul li p {
       font-size: 1.5vw;
@@ -1127,7 +1141,7 @@ textarea {
     }
     .dci-img, .uni-img{
       margin-left:-17%;
-      transform:scale(1.1);
+      transform:scale(0.9);
     }
     .dci-img{
       margin-top:10%;
@@ -1137,50 +1151,53 @@ textarea {
     }
     .dci .study-text{
       margin-top: 8%;
-      margin-left:2.5%;
+      margin-left:1%;
       font-size: 1.4vw;
     }
     .uni .study-text{
       margin-top: -38%;
-      margin-left:2.5%;
+      margin-left:1%;
       font-size: 1.4vw;
     }
     .languages ul li {
-      margin: 12% auto;
+      margin: 14.25% auto;
       transform:translateY(-18%)translateX(-5%);
     }
     .languages ul li p {
-      font-size: 2.2vw;
+      font-size: 2vw;
     }
     .measure-lang .main-span-lang {
-      border-radius: 7.5px;
+      border-radius: 5px;
     }
     .measure-lang .second-span-lang {
       font-size: 2.2vw;
-      border-top-left-radius: 7.5px;
-      border-bottom-left-radius: 7.5px;
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
     }
     #goalContactSection{
-      height:80.1vh;
+      height:81vh;
     }
     .message-icon {
       margin-top:1%;
-      font-size: 9vw;
+      font-size: 8vw;
     }
     form{
-      margin-top:-1%;
+      margin-top:2%;
       transform:scale(1.2);
     }
     .submit{
-      margin-top:-6.8%;
+      margin-top:-7%;
+    }
+    textarea{
+      height:185px;
     }
     .goal{
-      height:67vh;
+      height:68.5vh;
     }
     .download-cv{
       padding-top:50%;
       padding-left:50%;
-      transform:translate(-27.5%,-35%)scale(1.2);
+      transform:translate(-26%,-35%)scale(1.1);
     }
     .goal .goalText {
       line-height:1.4;
@@ -1195,29 +1212,34 @@ textarea {
   .logo02 a span {
     position: absolute;
     top: 31%;
-    left: 20.8%;
+    left: 20.74%;
+  }
+  .infoDiv .logo a span {
+    top: 27.2%;
+    left: 23%;
   }
   .left-intro .img-div .img {
-    height: 80%;
+    height: 78%;
+    width:95%;
   }
   .left-intro .img-div {
     padding-top: 65%;
   }
   .intro-title{
-    margin-top:13%;
+    margin-top:11%;
   }
   .myClock{
-    padding-top:27.5%;
+    padding-top:35%;
   }
   .socialMedia {
     position: fixed;
-    right: 0.8%;
+    right: 0.6%;
     top: 40%;
-    transform:scale(1.2);
+    transform:scale(1.1);
   }
   .intro-arrow{
-    margin-top:5%;
-    transform:scale(1.2);
+    margin-top:6%;
+    transform:scale(1);
   }
   .logo a span {
     position: absolute;
@@ -1229,12 +1251,12 @@ textarea {
   }
   .dci .study-text{
     margin-top: 8%;
-    margin-left:0%;
+    margin-left:-0.5%;
     font-size: 1.4vw;
   }
   .uni .study-text{
     margin-top: -37.5%;
-    margin-left:0%;
+    margin-left:-0.5%;
     font-size: 1.4vw;
   }
   .uni-img, .dci-img{
@@ -1249,11 +1271,13 @@ textarea {
     transform:translate(1%,1%);
   }
   .measure-lang .main-span-lang {
-    border-radius: 7.5px;
+    height:60px;
+    border-radius: 6px;
   }
   .measure-lang .second-span-lang {
-    border-top-left-radius: 7.5px;
-    border-bottom-left-radius: 7.5px;
+    height:60px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
   }
   .active-nav {
     border-radius: 6px;
@@ -1262,7 +1286,7 @@ textarea {
     height:99.45vh;
   }
   .skills-measure ul li {
-    margin: 5.7% 0;
+    margin: 5.65% 0;
   }
   .measure .second-span {
     border-top-left-radius: 4px;
@@ -1281,19 +1305,22 @@ textarea {
   }
   .message-icon {
     margin-top:1%;
-    font-size: 9vw;
+    font-size: 8.5vw;
   }
   form{
-    padding-top:3.5%;
+    padding-top:0.3%;
     transform:scale(1.1);
   }
   .submit{
-    margin-top:-6.5%;
+    margin-top:-6.6%;
+  }
+  textarea{
+    height:170px;
   }
   .download-cv{
     padding-top:50%;
     padding-left:50%;
-    transform:translate(-28.7%,-47.5%)scale(1.2);
+    transform:translate(-26.7%,-47.5%)scale(1.1);
   }
   .goal{
     height:66vh;
@@ -1304,7 +1331,7 @@ textarea {
   }
   .infoDiv .logo a span {
     top: 28%;
-    left: 21.8%;
+    left: 22%;
   }
   #aboutSkillsSection {
     height:99vh;
@@ -1318,25 +1345,59 @@ textarea {
 }
 @media screen and (min-width:1366px){
   ::-webkit-scrollbar {
-    width: 1em;
+    width: 0.6em;
+  }
+  .intro-title{
+    margin-top:10%;
+  }
+  .intro-arrow{
+    margin-top:7%;
+    transform:scale(1);
+  }
+  .myClock{
+    padding-top:36%;
   }
   .socialMedia {
     top: 38%;
   }
   .logo a span {
     position: absolute;
-    top: 22.4%;
+    top: 22%;
+    left: 21%;
   }
   .infoDiv .logo a span {
     left: 21.9%;
   }
+  .left-intro .img-div .img {
+    height: 77%;
+    width:92%;
+  }
   .skills-measure ul li {
-    margin: 5.6% 0;
+    margin: 6% 0;
   }
   .about-text{
     padding-top:23%;
     font-size:1.4vw;
-    line-height: 1.2;
+    line-height: 1.215;
+  }
+  .uni-img, .dci-img{
+    transform:scale(0.9);
+  }
+  .languages ul li p {
+    font-size:2vw;
+    transform:translate(1%,1%);
+  }
+  .studying {
+    margin-left:1.25%;
+  }
+  .dci .study-text{
+    margin-left:-2%;
+  }
+  .uni .study-text{
+    margin-left:-2%;
+  }
+  .languages ul li {
+    transform:translateY(-20%)translateX(-6%);
   }
   #goalContactSection{
     height:79.2vh;
@@ -1346,7 +1407,7 @@ textarea {
     font-size: 8vw;
   }
   form{
-    padding-top:4%;
+    margin-top:1%;
     transform:scale(1.1);
   }
   .download-cv{
@@ -1354,39 +1415,51 @@ textarea {
     padding-left:50%;
     transform:translate(-27%,-50%)scale(1.1);
   }
+  .submit{
+    margin-top:-6.5%;
+  }
+textarea{
+  height:175px;
+}
 }
 @media screen and (min-width:1400px){
   ::-webkit-scrollbar {
-    width: 0.8em;
+    width: 0.6em;
   }
   .logo02 a span {
     position: absolute;
+    left: 20.65%;
+  }
+  .logo a span {
+    position: absolute;
+    top: 22%;
     left: 20.7%;
   }
   .socialMedia {
     position: fixed;
-    right: 0.9%;
+    right: 0.8%;
     top: 39%;
-    transform:scale(1.25);
+    transform:scale(1.2);
   }
   .myClock{
-    padding-top:32%;
+    padding-top:43%;
   }
   #day {
     padding-left:16%;
   }
   .left-intro .img-div .img {
     height: 70%;
+    width:95%;
   }
   .left-intro .img-div {
     padding-top: 80%;
   }
   .intro-title{
-    margin-top:16%;
+    margin-top:15%;
   }
   .intro-arrow{
-    margin-top:11%;
-    transform:scale(1.25);
+    margin-top:12%;
+    transform:scale(1.1);
   }
   #aboutSkillsSection {
     height:99.2vh;
@@ -1400,32 +1473,34 @@ textarea {
     margin-top:-0.5%;
   }
   .skills-measure ul li {
-    margin: 9.6% 0;
+    margin: 9% 0;
   }
   .measure .second-span {
+    height:30px;
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
   }
   .measure .main-span {
+    height:30px;
     border-radius: 4px;
   }
   .education {
-    height:93.2vh;
+    height:93.35vh;
   }
   #workEducationSection {
-    height:99.15vh;
+    height:99.3vh;
   }
   .studying {
     margin-left:1.7%;
   }
   .dci .study-text{
     margin-top: 15%;
-    margin-left:2%;
+    margin-left:0.2%;
     font-size: 1.4vw;
   }
   .uni .study-text{
     margin-top: -40%;
-    margin-left:2%;
+    margin-left:0.2%;
     font-size: 1.4vw;
   }
   .dci-img{
@@ -1435,24 +1510,24 @@ textarea {
     margin-bottom:12%;
   }
   .uni-img, .dci-img{
-    transform:scale(1.1);
+    transform:scale(1.05);
   }
   .languages ul li {
-    margin: 13% auto;
+    margin: 14% auto;
     transform:translateY(-15%)translateX(-5%);
   }
   .languages ul li p {
-    font-size: 2.2vw;
+    font-size: 2vw;
   }
   .measure-lang .main-span-lang {
-    height: 70px;
-    border-radius: 7.5px;
+    height: 65px;
+    border-radius: 5px;
   }
   .measure-lang .second-span-lang {
-    height: 70px;
+    height: 65px;
     font-size: 2.2vw;
-    border-top-left-radius: 7.5px;
-    border-bottom-left-radius: 7.5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
   }
   #goalContactSection{
     height:81.8vh;
@@ -1462,14 +1537,14 @@ textarea {
   }
   .message-icon {
     margin-top:1%;
-    font-size: 10vw;
+    font-size: 8.5vw;
   }
   form{
-    padding-top:7%;
-    transform:scale(1.25);
+    padding-top:5%;
+    transform:scale(1.2);
   }
   textarea{
-    height:185px;
+    height:215px;
   }
   input,
   textarea {
@@ -1482,7 +1557,7 @@ textarea {
   .download-cv{
     padding-top:50%;
     padding-left:50%;
-    transform:translate(-30%,-30%)scale(1.25);
+    transform:translate(-27%,-30%)scale(1.1);
   }
   .goal .goalText {
     line-height:1.5;
@@ -1495,11 +1570,12 @@ textarea {
 }
 @media screen and (min-width:1440px){
   ::-webkit-scrollbar {
-    width: 0.8em;
+    width: 0.6em;
   }
   .logo02 a span {
     position: absolute;
-    left: 20.7%;
+    top:33%;
+    left: 20.5%;
   }
   .active-nav {
     border-radius: 7px;
@@ -1510,8 +1586,18 @@ textarea {
   .left-intro .img-div {
     padding-top: 80%;
   }
+  .intro-title{
+    margin-top:14%;
+  }
+  .intro-arrow{
+    margin-top:11%;
+    transform:scale(1.2);
+  }
   .myClock{
-    padding-top:27.5%;
+    padding-top:37%;
+  }
+  .skills-measure ul li {
+    margin: 8.7% 0;
   }
   .about-text{
     padding-top:24%;
@@ -1522,24 +1608,37 @@ textarea {
     height:99.25vh;
   }
   .languages ul li {
-    margin: 12.1% auto;
+    margin: 13.2% auto;
     transform:translateY(-15%)translateX(-5%);
   }
   .languages ul li p {
-    font-size: 2.2vw;
+    font-size: 2vw;
   }
   .measure-lang .main-span-lang {
-    height: 72.5px;
-    border-radius: 7.5px;
+    height: 65px;
+    border-radius: 5px;
   }
   .measure-lang .second-span-lang {
-    height: 72.5px;
+    height: 65px;
     font-size: 2.2vw;
-    border-top-left-radius: 7.5px;
-    border-bottom-left-radius: 7.5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+    .studying {
+    margin-left:1.9%;
+  }
+  .dci .study-text{
+    margin-top: 15%;
+    margin-left:0.3%;
+    font-size: 1.4vw;
+  }
+  .uni .study-text{
+    margin-top: -41.5%;
+    margin-left:0.3%;
+    font-size: 1.4vw;
   }
   form{
-    padding-top:7%;
+    padding-top:4.3%;
     transform:scale(1.2);
   }
   .submit{
@@ -1548,7 +1647,7 @@ textarea {
   .download-cv{
     padding-top:50%;
     padding-left:50%;
-    transform:translate(-30%,-30%)scale(1.2);
+    transform:translate(-27%,-30%)scale(1.1);
   }
   .infoDiv .logo a span {
     top:28%;
@@ -1560,13 +1659,10 @@ textarea {
   .goal{
     height:69.7vh;
   }
-  .skills-measure ul li {
-    margin: 9.5% 0;
-  }
 }
 @media screen and (min-width:1536px){
   ::-webkit-scrollbar {
-    width: 0.7em;
+    width: 0.6em;
     background-color: rgb(212,175,55, 0.45);
   }
   .logo02 a span {
@@ -1585,13 +1681,13 @@ textarea {
   }
   .left-intro .img-div {
     width: 99%;
-    height: 60%;
+    height: 58%;
     margin-left: 50%;
     padding-top: 49%;
     transform:scale(0.9);
   }
   .myClock{
-    padding-top:1%;
+    padding-top:7%;
   }
   #day{
     transform:scale(0.7)translateX(-15%);
@@ -1600,7 +1696,7 @@ textarea {
     height:99vh;
   }
   .intro-title{
-    margin-top:6.5%;
+    margin-top:6%;
   }
   .socialMedia {
     position: fixed;
@@ -1610,7 +1706,7 @@ textarea {
   }
   .intro-arrow{
     transform:scale(1);
-    margin-top:2%;
+    margin-top:3%;
   }
   #aboutSkillsSection {
     height:98.8vh;
@@ -1625,7 +1721,7 @@ textarea {
     padding-top: 3%;
   }
   .skills-measure ul li {
-    margin: 3.9% 0;
+    margin: 3.3% 0;
   }
   .measure .second-span {
     border-top-left-radius: 4px;
@@ -1654,12 +1750,12 @@ textarea {
   }
   .dci .study-text{
     margin-top: 6%;
-    margin-left:0%;
+    margin-left:-1%;
     font-size: 1.4vw;
   }
   .uni .study-text{
     margin-top: -34%;
-    margin-left:0%;
+    margin-left:-1%;
     font-size: 1.4vw;
   }
   .languages ul li {
@@ -1667,7 +1763,7 @@ textarea {
     transform:translateY(-22.5%)translateX(-3%);
   }
   .languages ul li p {
-    font-size: 1.8vw;
+    font-size: 1.6vw;
     transform:translateY(5)translateX(0%);
   }
   .measure-lang .main-span-lang {
@@ -1688,11 +1784,14 @@ textarea {
     font-size: 7vw;
   }
   form{
-    margin-top:-7.5%;
+    margin-top:-6%;
     transform:scale(0.97);
   }
   .submit{
     margin-top:-5.6%;
+  }
+  textarea{
+    height:192px;
   }
   .download-cv{
     padding-top:50%;
@@ -1732,12 +1831,12 @@ textarea {
 }
 @media screen and (min-width:1600px){
   ::-webkit-scrollbar {
-    width: 0.7em;
+    width: 0.6em;
   }
   .logo02 a span {
     position:absolute;
     top: 32%;
-    left: 20.3%;
+    left: 20.2%;
   }
   .logo a span {
     position:absolute;
@@ -1745,34 +1844,34 @@ textarea {
     left: 20.65%;
   }
   .infoDiv .logo a span {
-  top: 25.9%;
-  left: 21.5%;
+  top: 26.5%;
+  left: 21.65%;
   }
   .left-intro .img-div {
-    width: 100%;
-    height: 55%;
+    width: 98%;
+    height: 50%;
     margin-left: 50%;
-    padding-top: 60%;
+    padding-top: 70%;
     transform:scale(1);
   }
   .intro-title{
-    margin-top:12%;
+    margin-top:11%;
   }
   .myClock{
-    padding-top:15%;
+    padding-top:20%;
   }
   .right-intro {
     height:99.3vh;
   }
   .socialMedia {
     position: fixed;
-    right: 0.8%;
+    right: 0.7%;
     top: 40.6%;
-    transform:scale(1.25);
+    transform:scale(1.2);
   }
   .intro-arrow{
     margin-top:6%;
-    transform:scale(1.25);
+    transform:scale(1.15);
   }
   #aboutSkillsSection {
     height:99.3vh;
@@ -1788,10 +1887,10 @@ textarea {
     padding-top:20%;
     font-size:1.4vw;
     font-weight:400;
-    line-height: 1.24;
+    line-height: 1.25;
   }
   .skills-measure ul li {
-    margin: 7.2% 0;
+    margin: 7% 0;
   }
   #workEducationSection {
     height:99.35vh;
@@ -1813,31 +1912,31 @@ textarea {
   }
   .dci .study-text{
     margin-top: 10%;
-    margin-left:1%;
+    margin-left:0.5%;
     font-size: 1.4vw;
   }
   .uni .study-text{
     margin-top: -34%;
-    margin-left:1%;
+    margin-left:0.5%;
     font-size: 1.4vw;
   }
   .languages ul li {
-    margin: 12% auto;
+    margin: 12.23% auto;
     transform:translateY(-30%)translateX(-5%);
   }
   .languages ul li p {
-    font-size: 2vw;
+    font-size: 1.8vw;
     padding-top:1%;
   }
   .measure-lang .main-span-lang {
     height: 70px;
-    border-radius: 7.5px;
+    border-radius: 6px;
   }
   .measure-lang .second-span-lang {
     height: 70px;
     font-size: 2vw;
-    border-top-left-radius: 7.5px;
-    border-bottom-left-radius: 7.5px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
   }
   #goalContactSection{
     height:80vh;
@@ -1860,8 +1959,11 @@ textarea {
     font-size: 8vw;
   }
   form{
-    margin-top:-2.5%;
+    margin-top:-1.5%;
     transform:scale(1.1);
+  }
+  textarea{
+    height:200px;
   }
   .submit{
     margin-top:-5.3%;
@@ -1869,12 +1971,12 @@ textarea {
 }
 @media screen and (min-width:1680px){
   ::-webkit-scrollbar {
-    width: 0.8em;
+    width: 0.75em;
   }
   .logo02 a span {
     position:absolute;
     top: 31%;
-    left: 20.1%;
+    left: 20.15%;
   }
   .logo a span {
     position:absolute;
@@ -1892,7 +1994,7 @@ textarea {
   }
   .left-intro .img-div {
     width: 100%;
-    height: 50%;
+    height: 47%;
     margin-left: 50%;
     padding-top: 75%;
     transform:scale(1);
@@ -1901,14 +2003,14 @@ textarea {
     margin-top:14%;
   }
   .myClock{
-    padding-top:27.5%;
+    padding-top:39%;
   }
   #day {
     padding-left:20%;
   }
   .intro-arrow{
     margin-top:11%;
-    transform:scale(1.45);
+    transform:scale(1.4);
   }
   .socialMedia {
     position: fixed;
@@ -1917,19 +2019,19 @@ textarea {
     transform:scale(1.45);
   }
   #aboutSkillsSection {
-    height:99.45vh;
+    height:99.5vh;
   }
   .about-text{
     padding-top:23%;
     font-size:1.4vw;
     font-weight:400;
-    line-height: 1.4;
+    line-height: 1.45;
   }
   .skills-measure {
     padding-top: 3.5%;
   }
   .skills-measure ul li {
-    margin: 8.5% 0;
+    margin: 8.9% 0;
   }
   .measure .main-span {
     height: 35px;
@@ -1943,10 +2045,10 @@ textarea {
     border-bottom-left-radius: 4.5px;
   }
   #workEducationSection {
-    height:99.2vh;
+    height:99.4vh;
   }
   .education{
-    height:93vh;
+    height:93.4vh;
   }
   .studying {
     margin-left:3.9%;
@@ -1962,12 +2064,12 @@ textarea {
   }
   .dci .study-text{
     margin-top: 15%;
-    margin-left:3.5%;
+    margin-left:3%;
     font-size: 1.5vw;
   }
   .uni .study-text{
     margin-top: -34%;
-    margin-left:3.5%;
+    margin-left:3%;
     font-size: 1.5vw;
   }
   .languages ul li {
@@ -1975,7 +2077,7 @@ textarea {
     transform:translateY(-39.8%)translateX(-5%);
   }
   .languages ul li p {
-    font-size: 2.1vw;
+    font-size: 2vw;
     padding-top:1%;
     padding-left:-1%;
   }
@@ -2004,7 +2106,7 @@ textarea {
     transform:scale(1.25);
   }
   textarea{
-    height:207px;
+    height:240px;
   }
   .submit{
     margin-top:-5%;
@@ -2013,34 +2115,34 @@ textarea {
     width:400px;
     padding-top:50%;
     padding-left:50%;
-    transform:translate(-26.5%,-30%)scale(1.1);
+    transform:translate(-26%,-30%)scale(1.1);
   }
   .goal .goalText {
     line-height:1.4;
-    transform:translateY(-9%);
+    transform:translateY(0%);
   }
 }
-@media screen and (min-width:1920px){
+@media (min-width:1920px){
   .logo02 a span {
     position:absolute;
     top: 33.5%;
-    left: 19.85%;
+    left: 19.8%;
   }
   .active-nav {
     border-radius: 9px;
   }
   .left-intro .img-div {
-    width: 100%;
-    height: 55%;
-    margin-left: 45%;
-    padding-top: 60%;
+    width: 98%;
+    height: 50%;
+    margin-left:50%;
+    padding-top: 65%;
     transform:scale(1);
   }
   .intro-title{
-    margin-top:11%;
+    margin-top:10%;
   }
   .intro-arrow{
-    margin-top:9%;
+    margin-top:8%;
     transform:scale(1.4);
   }
   .socialMedia {
@@ -2050,14 +2152,14 @@ textarea {
     transform:scale(1.5);
   }
   ::-webkit-scrollbar {
-    width: 0.9em;
+    width: 0.8em;
     background-color: rgb(212,175,55, 0.45);
   }
   ::-webkit-scrollbar-thumb {
     background: rgb(212,175,55, 0.65);
   }
   .myClock{
-    padding-top:17%;
+    padding-top:25%;
   }
   #clock {
     text-align:center;
@@ -2068,7 +2170,7 @@ textarea {
     font-family: "Montserrat", sans-serif;
     }
     #day {
-      padding-left:20%;
+      padding-left:20.05%;
       margin-top:0px;
       font-size:1.8vw;
       font-weight:lighter;
@@ -2078,13 +2180,13 @@ textarea {
     }
     .logo a span {
       position: absolute;
-      top: 20%;
+      top: 19.7%;
       left: 20.4%;
     }
     .about-text{
       padding-top:22%;
       font-size:1.4vw;
-      line-height: 1.25;
+      line-height: 1.23;
     }
     .measure .main-span {
       height: 35px;
@@ -2099,22 +2201,22 @@ textarea {
       margin: 6.9% 0;
     }
     .languages ul li {
-      margin: 10% auto;
+      margin: 11.3% auto;
       transform:translateY(5%)translateX(-5%);
     }
     .languages ul li p {
-      font-size: 2vw;
+      font-size: 1.8vw;
       padding-top:1%;
     }
     .measure-lang .main-span-lang {
-      height: 90px;
-      border-radius: 8px;
+      height: 85px;
+      border-radius: 6px;
     }
     .measure-lang .second-span-lang {
-      height: 90px;
+      height: 85px;
       font-size: 2vw;
-      border-top-left-radius: 8px;
-      border-bottom-left-radius: 8px;
+      border-top-left-radius: 6px;
+      border-bottom-left-radius: 6px;
     }
     .studying {
       margin-top:5%;
@@ -2160,7 +2262,10 @@ textarea {
     }
     form{
       margin-top:-1%;
-      transform:scale(1.2);
+      transform:scale(1.15);
+    }
+    textarea{
+      height:245px;
     }
     .submit{
       margin-top:-4.2%;
@@ -2176,19 +2281,343 @@ textarea {
       transform:translateY(-27%);
     }
     .infoDiv .logo a span {
-      top: 24.3%;
-      left: 21.05%;
+      top: 24%;
+      left: 21.2%;
+      }
+}
+@media screen and (min-width:1921px){
+  .logo02 a span {
+    position:absolute;
+    top: 33.5%;
+    left: 19.8%;
+  }
+  .active-nav {
+    border-radius: 9px;
+  }
+  .left-intro .img-div {
+    width: 98%;
+    height: 50%;
+    margin-left:50%;
+    padding-top: 65%;
+    transform:scale(1);
+  }
+  .intro-title{
+    margin-top:10%;
+  }
+  .intro-arrow{
+    margin-top:8%;
+    transform:scale(1.4);
+  }
+  .socialMedia {
+    position: fixed;
+    right: 1.05%;
+    top: 42%;
+    transform:scale(1.5);
+  }
+  ::-webkit-scrollbar {
+    width: 0.8em;
+    background-color: rgb(212,175,55, 0.45);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgb(212,175,55, 0.65);
+  }
+  .myClock{
+    padding-top:26%;
+  }
+  #clock {
+    text-align:center;
+    color:rgb(212,175,55, 0.3);
+    font-weight:lighter;
+    letter-spacing:5px;
+    font-size:1.8vw;
+    font-family: "Montserrat", sans-serif;
+    }
+    #day {
+      padding-left:20.5%;
+      margin-top:0px;
+      font-size:1.8vw;
+      font-weight:lighter;
+      letter-spacing:2px;
+      color:rgb(212,175,55, 0.3);
+      font-family: "Montserrat", sans-serif;
+    }
+    .logo a span {
+      position: absolute;
+      top: 19.7%;
+      left: 20.4%;
+    }
+    .about-text{
+      padding-top:22%;
+      font-size:1.4vw;
+      line-height: 1.23;
+    }
+    .measure .main-span {
+      height: 35px;
+      border-radius: 4px;
+    }
+    .measure .second-span {
+      height: 35px;
+      border-top-left-radius: 4px;
+      border-bottom-left-radius: 4px;
+    }
+    .skills-measure ul li {
+      margin: 6.9% 0;
+    }
+    .languages ul li {
+      margin: 11.3% auto;
+      transform:translateY(5%)translateX(-5%);
+    }
+    .languages ul li p {
+      font-size: 1.8vw;
+      padding-top:1%;
+    }
+    .measure-lang .main-span-lang {
+      height: 85px;
+      border-radius: 6px;
+    }
+    .measure-lang .second-span-lang {
+      height: 85px;
+      font-size: 2vw;
+      border-top-left-radius: 6px;
+      border-bottom-left-radius: 6px;
+    }
+    .studying {
+      margin-top:5%;
+      margin-left:5.8%;
+    }
+    .dci-img{
+      margin-top:8%;
+    }
+    .uni-img, .dci-img{
+      transform:scale(1.4);
+    }
+    .uni{
+      margin-bottom:5%;
+    }
+    .dci .study-text{
+      margin-top: 7%;
+      margin-left:3.5%;
+      font-size: 1.4vw;
+    }
+    .uni .study-text{
+      margin-top: -35%;
+      margin-left:3.5%;
+      font-size: 1.4vw;
+    }
+    .education{
+      height:92.5vh;
+    }
+    #workEducationSection {
+      height:99.4vh;
+    }
+    .languages ul li {
+      margin-top: 7.5%;
+    }
+    #goalContactSection{
+      height:80.9vh;
+    }
+    .goal{
+      height:67vh;
+    }
+    .message-icon {
+      margin-top:1%;
+      font-size: 8vw;
+    }
+    form{
+      margin-top:-1%;
+      transform:scale(1.15);
+    }
+    textarea{
+      height:240px;
+    }
+    .submit{
+      margin-top:-4.3%;
+    }
+    .download-cv{
+      width:400px;
+      padding-top:50%;
+      padding-left:50%;
+      transform:translate(-28.5%,-40%)scale(1.1);
+    }
+    .goal .goalText {
+      line-height:1.3;
+      transform:translateY(-27%);
+    }
+    .infoDiv .logo a span {
+      top: 23%;
+      left: 21.2%;
+      }
+    }
+@media (min-width:2304px){
+  ::-webkit-scrollbar {
+    width: 1em;
+  }
+  .logo02 a span {
+    position:absolute;
+    top: 34.5%;
+    left: 19.35%;
+  }
+  .active-nav {
+    border-radius: 9px;
+  }
+  .left-intro .img-div {
+    width: 98%;
+    height: 46%;
+    margin-left:50%;
+    padding-top: 73%;
+    transform:scale(1);
+  }
+  .intro-title{
+    margin-top:12%;
+  }
+  .intro-arrow{
+    margin-top:13%;
+    transform:scale(1.7);
+  }
+  .socialMedia {
+    position: fixed;
+    right: 1.14%;
+    top: 42%;
+    transform:scale(1.8);
+  }
+  .myClock{
+    padding-top:45%;
+  }
+  #clock {
+    text-align:center;
+    color:rgb(212,175,55, 0.3);
+    font-weight:lighter;
+    letter-spacing:5px;
+    font-size:1.8vw;
+    font-family: "Montserrat", sans-serif;
+    }
+    #day {
+      padding-left:22%;
+      margin-top:0px;
+      font-size:1.8vw;
+      font-weight:lighter;
+      letter-spacing:2px;
+      color:rgb(212,175,55, 0.3);
+      font-family: "Montserrat", sans-serif;
+    }
+    .logo a span {
+      position: absolute;
+      top: 17.7%;
+      left: 20.05%;
+    }
+    .about-text{
+      padding-top:22%;
+      font-size:1.4vw;
+      line-height: 1.44;
+    }
+    .measure .main-span {
+      height: 48px;
+      border-radius: 4px;
+    }
+    .measure .second-span {
+      height: 48px;
+      border-top-left-radius: 4px;
+      border-bottom-left-radius: 4px;
+    }
+    .skills-measure ul li {
+      margin: 9.05% 0;
+    }
+    .languages ul li {
+      margin: 17% auto;
+      transform:translateY(4%)translateX(-5%);
+    }
+    .languages ul li p {
+      font-size: 1.8vw;
+      padding-top:1%;
+    }
+    .measure-lang .main-span-lang {
+      height: 100px;
+      border-radius: 8px;
+    }
+    .measure-lang .second-span-lang {
+      height: 100px;
+      font-size: 2vw;
+      border-top-left-radius: 8px;
+      border-bottom-left-radius: 8px;
+    }
+    .studying {
+      margin-top:5%;
+      margin-left:7.5%;
+    }
+    .dci-img{
+      margin-top:13%;
+    }
+    .uni-img, .dci-img{
+      transform:scale(1.6);
+    }
+    .uni{
+      margin-bottom:5%;
+    }
+    .dci .study-text{
+      margin-top: 11%;
+      margin-left:5%;
+      font-size: 1.4vw;
+    }
+    .uni .study-text{
+      margin-top: -35%;
+      margin-left:5%;
+      font-size: 1.4vw;
+    }
+    #aboutSkillsSection {
+      height:99.55vh;
+    }
+    .education{
+      height:93.5vh;
+    }
+    #workEducationSection {
+      height:99.4vh;
+    }
+    .languages ul li {
+      margin-top: 7.5%;
+    }
+    #goalContactSection{
+      height:83.3vh;
+    }
+    .goal{
+      height:71vh;
+    }
+    .message-icon {
+      margin-top:1%;
+      font-size: 8.5vw;
+    }
+    form{
+      margin-top:1%;
+      transform:scale(1.15);
+    }
+    textarea{
+      height:405px;
+    }
+    .submit{
+      margin-top:-3.3%;
+    }
+    .download-cv{
+      width:550px;
+      padding-top:53%;
+      padding-left:50%;
+      transform:translate(-27%,-40%)scale(1.1);
+    }
+    .goal .goalText {
+      line-height:1.3;
+      transform:translateY(33%);
+    }
+    .infoDiv .logo a span {
+      top: 22%;
+      left: 20.9%;
       }
 }
 @media screen and (min-width:2560px){
   ::-webkit-scrollbar {
     width: 1em;
-    background-color: rgb(212,175,55, 0.45);
   }
   .logo02 a span {
     position:absolute;
     top: 35%;
-    left: 19.1%;
+    left: 19.14%;
   }
   .logo a span {
     position: absolute;
@@ -2204,29 +2633,29 @@ textarea {
   }
   .left-intro .img-div {
     width: 100%;
-    height: 48%;
-    margin-left: 45%;
-    padding-top: 70%;
+    height: 47%;
+    margin-left: 50%;
+    padding-top: 75%;
     transform:scale(1);
   }
   .intro-title{
-    margin-top:15%;
+    margin-top:14%;
   }
   .myClock{
-    padding-top:40%;
+    padding-top:42%;
   }
   #day {
     padding-left:23%;
   }
   .intro-arrow{
     margin-top:12%;
-    transform:scale(2);
+    transform:scale(1.8);
   }
   .socialMedia {
     position: fixed;
-    right: 1.5%;
+    right: 1.3%;
     top: 45%;
-    transform:scale(2.15);
+    transform:scale(1.95);
   }
   .about-text{
     padding-top:23%;
@@ -2249,10 +2678,10 @@ textarea {
     border-bottom-left-radius: 4px;
   }
   #workEducationSection {
-    height:99.5vh;
+    height:99.55vh;
   }
   .education{
-    height:93.2vh;
+    height:93.26vh;
   }
   .studying {
     margin-top:5%;
@@ -2262,27 +2691,27 @@ textarea {
     margin-top:15%;
   }
   .uni-img, .dci-img{
-    transform:scale(2);
+    transform:scale(1.75);
   }
   .uni{
     margin-bottom:5%;
   }
   .dci .study-text{
     margin-top: 12%;
-    margin-left:8%;
+    margin-left:5.7%;
     font-size: 1.4vw;
   }
   .uni .study-text{
     margin-top: -35%;
-    margin-left:8%;
+    margin-left:5.7%;
     font-size: 1.4vw;
   }
   .languages ul li {
-    margin: 15% auto;
+    margin: 15.3% auto;
     transform:translateY(-40%)translateX(-5%);
   }
   .languages ul li p {
-    font-size: 2vw;
+    font-size: 1.8vw;
     padding-top:1%;
   }
   .measure-lang .main-span-lang {
@@ -2303,32 +2732,32 @@ textarea {
   }
   .message-icon {
     margin-top:0%;
-    font-size: 9vw;
+    font-size: 8.5vw;
   }
   form{
-    margin-top:-2%;
-    transform:scale(1.2);
+    margin-top:1.5%;
+    transform:scale(1.15);
   }
   textarea{
-    height:450px;
+    height:460px;
   }
   .submit{
-    margin-top:-3%;
+    margin-top:-2.9%;
   }
   .download-cv{
     width:500px;
     padding-top:55%;
     padding-left:50%;
-    transform:translate(-34%,-45%)scale(1.3);
+    transform:translate(-30.5%,-45%)scale(1.15);
   }
   .goal .goalText {
     line-height:1.5;
-    transform:translateY(20%);
+    transform:translateY(18%);
   }
 }
 @media screen and (min-width:2880px){
   ::-webkit-scrollbar {
-    width: 1.3em;
+    width: 1.2em;
   }
   .active-nav {
     border-radius: 15px;
@@ -2348,34 +2777,34 @@ textarea {
     left: 20.5%;
     }
   .left-intro .img-div {
-    width: 100%;
-    height: 50%;
-    margin-left: 45%;
-    padding-top: 75%;
+    width: 98%;
+    height: 45%;
+    margin-left: 52.5%;
+    padding-top: 77.5%;
     transform:scale(1);
   }
   .intro-title{
-    margin-top:16%;
+    margin-top:14%;
   }
   .socialMedia {
     position: fixed;
-    right: 1.6%;
+    right: 1.5%;
     top: 48%;
-    transform:scale(2.4);
+    transform:scale(2.3);
   }
   .intro-arrow{
-    margin-top:11%;
-    transform:scale(2.4);
+    margin-top:12%;
+    transform:scale(2.2);
   }
   .myClock{
-    padding-top:30%;
+    padding-top:45%;
   }
   #clock {
     font-size:1.8vw;
     }
     #day {
       font-size:1.8vw;
-      padding-left:20%;
+      padding-left:22%;
     }
     .right-intro {
       height:99.7vh;
@@ -2420,35 +2849,35 @@ textarea {
       margin-bottom:5%;
     }
     .uni-img, .dci-img{
-      transform:scale(2.3);
+      transform:scale(2.1);
     }
     .dci .study-text{
       margin-top: 17%;
-      margin-left:9%;
+      margin-left:7.5%;
       font-size: 1.4vw;
     }
     .uni .study-text{
       margin-top: -35%;
-      margin-left:9%;
+      margin-left:7.5%;
       font-size: 1.4vw;
     }
     .languages ul li {
-      margin: 13% auto;
+      margin: 13.5% auto;
       transform:translateY(-4%)translateX(-5%);
     }
     .languages ul li p {
-      font-size: 2vw;
+      font-size: 1.8vw;
       padding-top:1%;
     }
     .measure-lang .main-span-lang {
       height: 135px;
-      border-radius: 7.5px;
+      border-radius: 8px;
     }
     .measure-lang .second-span-lang {
       height: 135px;
       font-size: 2vw;
-      border-top-left-radius: 7.5px;
-      border-bottom-left-radius: 7.5px;
+      border-top-left-radius: 8px;
+      border-bottom-left-radius: 8px;
     }
     #goalContactSection{
       height:83.9vh;
@@ -2458,11 +2887,11 @@ textarea {
     }
     .message-icon {
       margin-top:0%;
-      font-size: 9.5vw;
+      font-size: 8.5vw;
     }
     form{
-      margin-top:0.5%;
-      transform:scale(1.24);
+      margin-top:3%;
+      transform:scale(1.2);
     }
     input,
 textarea {
@@ -2470,7 +2899,7 @@ textarea {
   border-bottom:2.5px solid #203242;
 }
     textarea{
-      height:428px;
+      height:465px;
     }
     .submit{
       margin-top:-2.5%;
@@ -2483,43 +2912,47 @@ textarea {
     }
     .goal .goalText {
       line-height:1.5;
-      transform:translateY(37.5%);
+      transform:translateY(40%);
     }
 }
 @media screen and (min-width:3000px){
   ::-webkit-scrollbar {
-    width: 1.4em;
+    width: 1.3em;
   }
   .logo a span {
     position: absolute;
-    top: 15.5%;
-    left: 19.8%;
+    top: 15.4%;
+    left: 19.85%;
   }
   .left-intro .img-div {
     width: 100%;
-    height: 45%;
-    margin-left: 45%;
+    height: 44%;
+    margin-left: 50%;
     padding-top: 85%;
     transform:scale(1);
   }
   .intro-title{
-    margin-top:17%;
+    margin-top:16%;
   }
   .socialMedia {
     position: fixed;
-    right: 1.8%;
+    right: 1.6%;
     top: 45%;
-    transform:scale(2.7);
+    transform:scale(2.5);
   }
   .intro-arrow{
     margin-top:15%;
-    transform:scale(2.6);
+    transform:scale(2.4);
   }
   .myClock{
-    padding-top:46%;
+    padding-top:50%;
+  }
+  #clock{
+    font-size:4em;
   }
   #day {
-    padding-left:21%;
+    font-size:3em;
+    padding-left:20%;
   }
   #aboutSkillsSection {
     height:99.65vh;
@@ -2527,10 +2960,10 @@ textarea {
   .about-text{
     padding-top:25%;
     font-size:1.4vw;
-    line-height: 1.54;
+    line-height: 1.56;
   }
   .skills-measure ul li {
-    margin: 10.4% 0;
+    margin: 10.55% 0;
   }
   .measure .main-span {
     height: 65px;
@@ -2558,32 +2991,32 @@ textarea {
     margin-bottom:5%;
   }
   .uni-img, .dci-img{
-    transform:scale(2.5);
+    transform:scale(2.3);
   }
   .dci .study-text{
     margin-top: 18%;
-    margin-left:10.5%;
+    margin-left:8.5%;
     font-size: 1.4vw;
   }
   .uni .study-text{
     margin-top: -35%;
-    margin-left:10.5%;
+    margin-left:8.5%;
     font-size: 1.4vw;
   }
   .languages ul li {
-    margin: 17% auto;
+    margin: 17.7% auto;
     transform:translateY(-41%)translateX(-5%);
   }
   .languages ul li p {
-    font-size: 2.1vw;
+    font-size: 1.9vw;
     padding-top:1%;
   }
   .measure-lang .main-span-lang {
-    height: 140px;
+    height: 135px;
     border-radius: 7.5px;
   }
   .measure-lang .second-span-lang {
-    height: 140px;
+    height: 135px;
     font-size: 2.1vw;
     border-top-left-radius: 7.5px;
     border-bottom-left-radius: 7.5px;
@@ -2596,11 +3029,11 @@ textarea {
   }
   .message-icon {
     margin-top:0%;
-    font-size: 9.5vw;
+    font-size: 8.5vw;
   }
   form{
-    margin-top:1.2%;
-    transform:scale(1.24);
+    margin-top:3.5%;
+    transform:scale(1.2);
   }
   input,
 textarea {
@@ -2608,7 +3041,7 @@ border-top: 3px solid #203242;
 border-bottom:3px solid #203242;
 }
   textarea{
-    height:540px;
+    height:585px;
   }
   .submit{
     margin-top:-2.4%;
@@ -2617,7 +3050,7 @@ border-bottom:3px solid #203242;
     width:600px;
     padding-top:50%;
     padding-left:50%;
-    transform:translate(-31.5%,-40%)scale(1.2);
+    transform:translate(-31.7%,-40%)scale(1.2);
   }
   .goal .goalText {
     line-height:1.5;
@@ -2626,7 +3059,7 @@ border-bottom:3px solid #203242;
 }
 @media screen and (min-width:3200px){
   ::-webkit-scrollbar {
-    width: 1.3em;
+    width: 1.2em;
   }
   .logo02 a span {
     position:absolute;
@@ -2644,40 +3077,40 @@ border-bottom:3px solid #203242;
     }
   .left-intro .img-div {
     width: 95%;
-    height: 50%;
-    margin-left: 50%;
+    height: 48%;
+    margin-left: 53%;
     padding-top: 70%;
     transform:scale(1);
   }
   .intro-title{
-    margin-top:12%;
+    margin-top:11%;
   }
   .socialMedia {
     position: fixed;
-    right: 1.54%;
+    right: 1.4%;
     top: 47.5%;
-    transform:scale(2.5);
-  }
-  .intro-arrow{
-    margin-top:9%;
     transform:scale(2.4);
   }
+  .intro-arrow{
+    margin-top:8%;
+    transform:scale(2.2);
+  }
   .myClock{
-    padding-top:21%;
+    padding-top:27.5%;
   }
   #day {
-    padding-left:22%;
+    padding-left:23%;
   }
   #aboutSkillsSection {
-    height:99.65vh;
+    height:99.75vh;
   }
   .about-text{
     padding-top:23%;
     font-size:1.4vw;
-    line-height: 1.235;
+    line-height: 1.248;
   }
   .skills-measure ul li {
-    margin: 6.4% 0;
+    margin: 6.5% 0;
   }
   .measure .main-span {
     height: 65px;
@@ -2689,7 +3122,7 @@ border-bottom:3px solid #203242;
     border-bottom-left-radius: 4px;
   }
   #workEducationSection {
-    height:99.7vh;
+    height:99.65vh;
   }
   .education{
     height:93vh;
@@ -2699,38 +3132,38 @@ border-bottom:3px solid #203242;
     margin-left:10.3%;
   }
   .dci-img{
-    margin-top:15%;
+    margin-top:12.7%;
   }
   .uni{
     margin-bottom:5%;
   }
   .uni-img, .dci-img{
-    transform:scale(2.4);
+    transform:scale(2.2);
   }
   .dci .study-text{
-    margin-top: 13%;
-    margin-left:8.7%;
+    margin-top: 11%;
+    margin-left:7%;
     font-size: 1.4vw;
   }
   .uni .study-text{
     margin-top: -35%;
-    margin-left:8.7%;
+    margin-left:7%;
     font-size: 1.4vw;
   }
   .languages ul li {
-    margin: 11% auto;
-    transform:translateY(-20%)translateX(-5%);
+    margin: 12.65% auto;
+    transform:translateY(-35.5%)translateX(-5%);
   }
   .languages ul li p {
-    font-size: 2.1vw;
+    font-size: 1.8vw;
     transform:translateY(0%)translateX(0.5%);
   }
   .measure-lang .main-span-lang {
-    height: 140px;
+    height: 130px;
     border-radius: 7.5px;
   }
   .measure-lang .second-span-lang {
-    height: 140px;
+    height: 130px;
     font-size: 2.1vw;
     border-top-left-radius: 7.5px;
     border-bottom-left-radius: 7.5px;
@@ -2743,11 +3176,11 @@ border-bottom:3px solid #203242;
   }
   .message-icon {
     margin-top:-1%;
-    font-size: 9vw;
+    font-size: 8vw;
   }
   form{
-    margin-top:-0.8%;
-    transform:scale(1.2);
+    margin-top:0%;
+    transform:scale(1.1);
   }
   input,
 textarea {
@@ -2755,20 +3188,20 @@ border-top: 3px solid #203242;
 border-bottom:3px solid #203242;
 }
   textarea{
-    height:385px;
+    height:485px;
   }
   .submit{
-    margin-top:-2.25%;
+    margin-top:-2.23%;
   }
   .download-cv{
     width:650px;
     padding-top:50%;
     padding-left:50%;
-    transform:translate(-32%,-55%)scale(1.2);
+    transform:translate(-29%,-55%)scale(1.1);
   }
   .goal .goalText {
     line-height:1.5;
-    transform:translateY(0%);
+    transform:translateY(-3%);
   }
 }
 @media screen and (min-width:3840px){
@@ -2783,7 +3216,7 @@ border-bottom:3px solid #203242;
   .logo a span {
     position: absolute;
     top: 13%;
-    left: 19.82%;
+    left: 19.75%;
   }
   .infoDiv .logo a span {
     top: 16%;
@@ -2791,33 +3224,33 @@ border-bottom:3px solid #203242;
     }
   .left-intro .img-div {
     width: 95%;
-    height: 50%;
-    margin-left: 50%;
+    height: 48%;
+    margin-left: 52%;
     padding-top: 70%;
     transform:scale(1);
   }
   .intro-title{
-    margin-top:12%;
+    margin-top:11%;
   }
   .socialMedia {
     position: fixed;
-    right: 1.6%;
+    right: 1.48%;
     top: 47.5%;
-    transform:scale(3);
-  }
-  .intro-arrow{
-    margin-top:9%;
     transform:scale(2.8);
   }
-  .myClock{
-    padding-top:27%;
+  .intro-arrow{
+    margin-top:8%;
+    transform:scale(2.6);
   }
-  #Clock{
-    font-size:2em;
+  .myClock{
+    padding-top:33%;
+  }
+  #clock{
+    font-size:5em;
   }
   #day {
     font-size:2em;
-    padding-left:26%;
+    padding-left:25%;
     transform:scale(1.4)translateX(4%)translateY(-15%);
   }
   #aboutSkillsSection {
@@ -2829,14 +3262,14 @@ border-bottom:3px solid #203242;
     line-height: 1.237;
   }
   .skills-measure ul li {
-    margin: 6.75% 0;
+    margin: 7.25% 0;
   }
   .measure .main-span {
-    height: 75px;
+    height: 70px;
     border-radius: 4px;
   }
   .measure .second-span {
-    height: 75px;
+    height: 70px;
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
   }
@@ -2857,32 +3290,185 @@ border-bottom:3px solid #203242;
     margin-bottom:5%;
   }
   .uni-img, .dci-img{
-    transform:scale(2.8);
+    transform:scale(2.6);
   }
   .dci .study-text{
     margin-top: 13%;
-    margin-left:9.2%;
+    margin-left:8%;
     font-size: 1.4vw;
   }
   .uni .study-text{
     margin-top: -35%;
-    margin-left:9.2%;
+    margin-left:8%;
     font-size: 1.4vw;
   }
   .languages ul li {
-    margin: 12% auto;
+    margin: 12.5% auto;
     transform:translateY(-35%)translateX(-5%);
   }
   .languages ul li p {
-    font-size: 2.1vw;
+    font-size: 1.8vw;
     transform:translateY(0.5%)translateX(0.4%);
   }
   .measure-lang .main-span-lang {
     height: 160px;
-    border-radius: 7.5px;
+    border-radius: 10px;
   }
   .measure-lang .second-span-lang {
     height: 160px;
+    font-size: 2.1vw;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  #goalContactSection{
+    height:82.8vh;
+  }
+  .goal{
+    height:68.8vh;
+  }
+  .message-icon {
+    margin-top:-1%;
+    font-size: 8vw;
+  }
+  form{
+    margin-top:0%;
+    transform:scale(1.1);
+  }
+  input,
+textarea {
+border-top: 3px solid #203242;
+border-bottom:3px solid #203242;
+}
+  textarea{
+    height:590px;
+  }
+  .submit{
+    margin-top:-1.7%;
+  }
+  .download-cv{
+    width:750px;
+    padding-top:50%;
+    padding-left:50%;
+    transform:translate(-30%,-55%)scale(1.1);
+  }
+  .goal .goalText {
+    line-height:1.5;
+    transform:translateY(7.5%);
+  }
+}
+@media (min-width:4096px){
+  ::-webkit-scrollbar {
+    width: 1.6em;
+  }
+  .logo02 a span {
+    position:absolute;
+    top: 36%;
+    left: 18.45%;
+  }
+  .logo a span {
+    position: absolute;
+    top: 13%;
+    left: 19.6%;
+  }
+  .infoDiv .logo a span {
+    top: 16%;
+    left: 20.1%;
+    }
+  .left-intro .img-div {
+    width: 95%;
+    height: 48%;
+    margin-left: 53%;
+    padding-top: 70%;
+    transform:scale(1);
+  }
+  .intro-title{
+    margin-top:10%;
+  }
+  .socialMedia {
+    position: fixed;
+    right: 1.7%;
+    top: 47.5%;
+    transform:scale(3.2);
+  }
+  .intro-arrow{
+    margin-top:9%;
+    transform:scale(3.1);
+  }
+  .myClock{
+    padding-top:32%;
+  }
+  #clock{
+    font-size:5.5em;
+  }
+  #day {
+    font-size:2.5em;
+    padding-left:23%;
+    transform:scale(1.4)translateX(4%)translateY(-15%);
+  }
+  #aboutSkillsSection {
+    height:99.75vh;
+  }
+  .about-text{
+    padding-top:23%;
+    font-size:1.4vw;
+    line-height: 1.25;
+  }
+  .skills-measure ul li {
+    margin: 6.3% 0;
+  }
+  .measure .main-span {
+    height: 85px;
+    border-radius: 8px;
+  }
+  .measure .second-span {
+    height: 85px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+  #workEducationSection {
+    height:99.63vh;
+  }
+  .education{
+    height:93vh;
+  }
+  .studying {
+    margin-top:5%;
+    margin-left:11.1%;
+  }
+  .dci-img{
+    margin-top:15%;
+  }
+  .uni-img{
+    margin-bottom:5%;
+  }
+  .uni-img, .dci-img{
+    transform:scale(2.8) translateX(2px);
+  
+  }
+  .dci .study-text{
+    margin-top: 13%;
+    margin-left:9%;
+    font-size: 1.4vw;
+  }
+  .uni .study-text{
+    margin-top: -35%;
+    margin-left:9%;
+    font-size: 1.4vw;
+  }
+  .languages ul li {
+    margin: 12.5% auto;
+    transform:translateY(-39%)translateX(-5%);
+  }
+  .languages ul li p {
+    font-size: 1.8vw;
+    transform:translateY(0.5%)translateX(0.4%);
+  }
+  .measure-lang .main-span-lang {
+    height: 175px;
+    border-radius: 7.5px;
+  }
+  .measure-lang .second-span-lang {
+    height: 175px;
     font-size: 2.1vw;
     border-top-left-radius: 7.5px;
     border-bottom-left-radius: 7.5px;
@@ -2895,11 +3481,11 @@ border-bottom:3px solid #203242;
   }
   .message-icon {
     margin-top:-1%;
-    font-size: 9vw;
+    font-size: 8.5vw;
   }
   form{
-    margin-top:-0.8%;
-    transform:scale(1.2);
+    margin-top:-0.4%;
+    transform:scale(1.1);
   }
   input,
 textarea {
@@ -2907,19 +3493,19 @@ border-top: 3px solid #203242;
 border-bottom:3px solid #203242;
 }
   textarea{
-    height:470px;
+    height:620px;
   }
   .submit{
-    margin-top:-1.6%;
+    margin-top:-1.4%;
   }
   .download-cv{
-    width:750px;
+    width:800px;
     padding-top:50%;
     padding-left:50%;
-    transform:translate(-32.7%,-55%)scale(1.2);
+    transform:translate(-32.4%,-55%)scale(1.2);
   }
   .goal .goalText {
     line-height:1.5;
-    transform:translateY(4%);
+    transform:translateY(10%);
   }
 }
