@@ -293,10 +293,10 @@ header {
   flex-direction: column;
   justify-content: space-evenly;
   background: #203242;
-  border-top-left-radius: 7.6px;
-  border-bottom-left-radius: 7.6px;
-  border-top-right-radius: 7.6px;
-  border-bottom-right-radius: 7.6px;
+  border-top-left-radius: 7.6px !important;
+  border-bottom-left-radius: 7.6px !important;
+  border-top-right-radius: 7.6px !important;
+  border-bottom-right-radius: 7.6px !important;
   padding: 0 6% 2.26% 6%;
 }
 .firstIcons {
