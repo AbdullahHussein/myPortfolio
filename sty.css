@@ -561,8 +561,14 @@ header {
   width: 300px;
   height: 150px;
   margin: 0 auto;
-  padding-top:15%;
-  padding-right:45px;
+  padding-bottom:7.3%;
+  padding-left:25%;
+}
+.download-cv-01 {
+  width: 300px;
+  height: 150px;
+  margin:0 auto;
+  transform:translateX(-20px)translateY(-235px);
 }
 .goal a {
   width: fit-content;
@@ -570,7 +576,7 @@ header {
   font-size: 1.6vw;
   padding: 8%;
   border: 1.2px solid #ffffff;
-  border-radius: 8px;
+  border-radius: 50px;
   color: #fff;
   background-color: rgba(255, 255, 255, 0.1);
   box-sizing: border-box;
@@ -579,10 +585,10 @@ header {
 .goal a:hover {
   color: #203242;
   background-color: #fff;
-  border-radius: 2em;
+  border-radius: 8px;
 }
 .goal .goalText {
-  margin-top:35px;
+  margin-top:-62.5px;
   text-align: center;
   padding: 20% -10% 5%;
   font-size: 1.5vw;
@@ -654,7 +660,8 @@ textarea:focus {
 }
 .send:hover {
   color: rgb(255, 255, 255);
-  background:rgb(0, 127, 0);
+  border-color:rgb(0, 127, 0, 0.6);
+  background:rgb(0, 127, 0, 0.35);
 }
 .reset {
   width: 35%;
@@ -895,15 +902,19 @@ textarea {
 textarea{
   height:135px;
 }
-  .download-cv{
-    padding-top:30%;
-    padding-left:20%;
-    transform:translate(-50%,-30%);
-    transform:scale(1);
-  }
+.download-cv{
+  width:380px;
+  padding-top:50%;
+  padding-left:50%;
+  transform:translate(-20.5%,-30%)scale(0.85);
+}
+.download-cv-01{
+  width:400px;
+  transform:translate(15%,-200%)scale(0.9);
+}
   .goal .goalText {
     line-height:1.5;
-    transform:translateY(-15%);
+    transform:translateY(-15%) !important;
   }
 }
 @media screen and (min-width:1152px){
@@ -1053,13 +1064,18 @@ textarea{
       margin-top:-7.8%;
     }
     .download-cv{
+      width:380px;
       padding-top:50%;
       padding-left:50%;
-      transform:translate(-24.5%,-14%)scale(1.1);
+      transform:translate(-22%,-11.5%)scale(1.05);
+    }
+    .download-cv-01{
+      width:400px;
+      transform:translate(16.4%,-100%)scale(1.1);
     }
     .goal .goalText {
       line-height:1.75;
-      transform:translateY(22%);
+      transform:translateY(-30%) !important;
     }
     .goal{
       height:73.8vh;
@@ -1195,13 +1211,18 @@ textarea{
       height:68.5vh;
     }
     .download-cv{
+      width:380px;
       padding-top:50%;
       padding-left:50%;
-      transform:translate(-26%,-35%)scale(1.1);
+      transform:translate(-23.5%,-30%)scale(1.05);
+    }
+    .download-cv-01{
+      width:400px;
+      transform:translate(13%,-175%)scale(1.1);
     }
     .goal .goalText {
       line-height:1.4;
-      transform:translateY(-25%);
+      transform:translateY(-25%) !important;
     }
     .infoDiv .logo a span {
       top: 27%;
@@ -1318,16 +1339,21 @@ textarea{
     height:170px;
   }
   .download-cv{
+    width:380px;
     padding-top:50%;
     padding-left:50%;
-    transform:translate(-26.7%,-47.5%)scale(1.1);
+    transform:translate(-23.5%,-40%)scale(1.05);
+  }
+  .download-cv-01{
+    width:400px;
+    transform:translate(11.2%,-265%)scale(1.1);
   }
   .goal{
     height:66vh;
   }
   .goal .goalText {
     line-height:1.4;
-    transform:translateY(-27%);
+    transform:translateY(-27%) !important;
   }
   .infoDiv .logo a span {
     top: 28%;
@@ -1411,9 +1437,14 @@ textarea{
     transform:scale(1.1);
   }
   .download-cv{
+    width:380px;
     padding-top:50%;
     padding-left:50%;
-    transform:translate(-27%,-50%)scale(1.1);
+    transform:translate(-23.6%,-39%)scale(1.05);
+  }
+  .download-cv-01{
+    width:400px;
+    transform:translate(11.2%,-265%)scale(1.1);
   }
   .submit{
     margin-top:-6.5%;
@@ -1555,13 +1586,18 @@ textarea{
     margin-top:-6.2%;
   }
   .download-cv{
+    width:380px;
     padding-top:50%;
     padding-left:50%;
-    transform:translate(-27%,-30%)scale(1.1);
+    transform:translate(-23.5%,-39%)scale(1.05);
+  }
+  .download-cv-01{
+    width:400px;
+    transform:translate(11.2%,-210%)scale(1.1);
   }
   .goal .goalText {
     line-height:1.5;
-    transform:translateY(-20%);
+    transform:translateY(-23%) !important;
   }
   .infoDiv .logo a span {
     top:27%;
@@ -1645,9 +1681,14 @@ textarea{
     margin-top:-6%;
   }
   .download-cv{
+    width:380px;
     padding-top:50%;
     padding-left:50%;
-    transform:translate(-27%,-30%)scale(1.1);
+    transform:translate(-23.1%,-38%)scale(1.05);
+  }
+  .download-cv-01{
+    width:400px;
+    transform:translate(11%,-215%)scale(1.1);
   }
   .infoDiv .logo a span {
     top:28%;
@@ -1759,7 +1800,7 @@ textarea{
     font-size: 1.4vw;
   }
   .languages ul li {
-    margin: 8% auto;
+    margin: 8.5% auto;
     transform:translateY(-22.5%)translateX(-3%);
   }
   .languages ul li p {
@@ -1794,13 +1835,18 @@ textarea{
     height:192px;
   }
   .download-cv{
+    width:380px;
     padding-top:50%;
     padding-left:50%;
-    transform:translate(-26.7%,-60%)scale(1);
+    transform:translate(-23.1%,-57%)scale(0.95);
+  }
+  .download-cv-01{
+    width:400px;
+    transform:translate(5.8%,-730%)scale(1);
   }
   .goal .goalText {
     line-height:1.3;
-    transform:translateY(-50%);
+    transform:translateY(-40%) !important;
   }
   #goalContactSection{
     height:77vh;
@@ -1810,13 +1856,13 @@ textarea{
     color:rgb(212,175,55, 0.3);
     font-weight:lighter;
     letter-spacing:5px;
-    font-size:1.8vw;
+    font-size:2em;
     font-family: "Montserrat", sans-serif;
     }
     #day {
-      padding-left:19%;
+      padding-left:10.5%;
       margin-top:0px;
-      font-size:1.8vw;
+      font-size:1.5em;
       font-weight:lighter;
       letter-spacing:2px;
       color:rgb(212,175,55, 0.3);
@@ -1945,14 +1991,18 @@ textarea{
     height:66vh;
   }
   .download-cv{
-    width:400px;
+    width:380px;
     padding-top:50%;
     padding-left:50%;
-    transform:translate(-24.3%,-42.5%)scale(1);
+    transform:translate(-22.945%,-37.5%)scale(0.95);
+  }
+  .download-cv-01{
+    width:400px;
+    transform:translate(5%,-297%)scale(1);
   }
   .goal .goalText {
     line-height:1.3;
-    transform:translateY(-25%);
+    transform:translateY(-25%) !important;
   }
   .message-icon {
     margin-top:1%;
@@ -2112,14 +2162,18 @@ textarea{
     margin-top:-5%;
   }
   .download-cv{
-    width:400px;
+    width:380px;
     padding-top:50%;
     padding-left:50%;
-    transform:translate(-26%,-30%)scale(1.1);
+    transform:translate(-26.5%,-29%)scale(1.095);
+  }
+  .download-cv-01{
+    width:400px;
+    transform:translate(3%,-180%)scale(1.1);
   }
   .goal .goalText {
     line-height:1.4;
-    transform:translateY(0%);
+    transform:translateY(-23.5%) !important;
   }
 }
 @media (min-width:1920px){
@@ -2271,14 +2325,18 @@ textarea{
       margin-top:-4.2%;
     }
     .download-cv{
-      width:400px;
+      width:380px;
       padding-top:50%;
       padding-left:50%;
-      transform:translate(-29%,-40%)scale(1.1);
+      transform:translate(-27%,-42%)scale(1.095);
+    }
+    .download-cv-01{
+      width:400px;
+      transform:translate(-1.771%,-298%)scale(1.1);
     }
     .goal .goalText {
       line-height:1.3;
-      transform:translateY(-27%);
+      transform:translateY(-27%) !important;
     }
     .infoDiv .logo a span {
       top: 24%;
@@ -2434,14 +2492,18 @@ textarea{
       margin-top:-4.3%;
     }
     .download-cv{
-      width:400px;
+      width:380px;
       padding-top:50%;
       padding-left:50%;
-      transform:translate(-28.5%,-40%)scale(1.1);
+      transform:translate(-27.35%,-42%)scale(1.095);
+    }
+    .download-cv-01{
+      width:400px;
+      transform:translate(-1.771%,-298%)scale(1.1);
     }
     .goal .goalText {
       line-height:1.3;
-      transform:translateY(-27%);
+      transform:translateY(-27%) !important;
     }
     .infoDiv .logo a span {
       top: 23%;
@@ -2596,14 +2658,21 @@ textarea{
       margin-top:-3.3%;
     }
     .download-cv{
-      width:550px;
-      padding-top:53%;
+      width:580px;
+      padding-top:50%;
       padding-left:50%;
-      transform:translate(-27%,-40%)scale(1.1);
+      transform:translate(-24.75%,-35%)scale(1.03);
+    }
+    .download-cv-01{
+      width:500px;
+      transform:translate(-1.75%,-220%)scale(1.1);
+    }
+    .goal a {
+      border-radius: 100px;
     }
     .goal .goalText {
       line-height:1.3;
-      transform:translateY(33%);
+      transform:translateY(-6%) !important;
     }
     .infoDiv .logo a span {
       top: 22%;
@@ -2746,13 +2815,20 @@ textarea{
   }
   .download-cv{
     width:500px;
-    padding-top:55%;
+    padding-top:50%;
     padding-left:50%;
-    transform:translate(-30.5%,-45%)scale(1.15);
+    transform:translate(-29%,-36.5%)scale(1.15);
+  }
+  .download-cv-01{
+    width:500px;
+    transform:translate(-6%,-220%)scale(1.2);
+  }
+  .goal a {
+    border-radius: 100px;
   }
   .goal .goalText {
     line-height:1.5;
-    transform:translateY(18%);
+    transform:translateY(-6%) !important;
   }
 }
 @media screen and (min-width:2880px){
@@ -2905,14 +2981,18 @@ textarea {
       margin-top:-2.5%;
     }
     .download-cv{
-      width:600px;
+      width:580px;
       padding-top:50%;
       padding-left:50%;
-      transform:translate(-29.5%,-35%)scale(1.15);
+      transform:translate(-27.5%,-33%)scale(1.12);
+    }
+    .download-cv-01{
+      width:600px;
+      transform:translate(-2%,-220%)scale(1.15);
     }
     .goal .goalText {
       line-height:1.5;
-      transform:translateY(40%);
+      transform:translateY(0%) !important;
     }
 }
 @media screen and (min-width:3000px){
@@ -3047,14 +3127,18 @@ border-bottom:3px solid #203242;
     margin-top:-2.4%;
   }
   .download-cv{
-    width:600px;
+    width:580px;
     padding-top:50%;
     padding-left:50%;
-    transform:translate(-31.7%,-40%)scale(1.2);
+    transform:translate(-30%,-34%)scale(1.17);
+  }
+  .download-cv-01{
+    width:600px;
+    transform:translate(-5%,-220%)scale(1.2);
   }
   .goal .goalText {
     line-height:1.5;
-    transform:translateY(80%);
+    transform:translateY(40%) !important;
   }
 }
 @media screen and (min-width:3200px){
@@ -3194,14 +3278,18 @@ border-bottom:3px solid #203242;
     margin-top:-2.23%;
   }
   .download-cv{
-    width:650px;
+    width:580px;
     padding-top:50%;
     padding-left:50%;
-    transform:translate(-29%,-55%)scale(1.1);
+    transform:translate(-30%,-50.5%)scale(1.1);
+  }
+  .download-cv-01{
+    width:700px;
+    transform:translate(0%,-400%)scale(1.15);
   }
   .goal .goalText {
     line-height:1.5;
-    transform:translateY(-3%);
+    transform:translateY(-20%) !important;
   }
 }
 @media screen and (min-width:3840px){
@@ -3346,14 +3434,18 @@ border-bottom:3px solid #203242;
     margin-top:-1.7%;
   }
   .download-cv{
-    width:750px;
+    width:700px;
     padding-top:50%;
     padding-left:50%;
-    transform:translate(-30%,-55%)scale(1.1);
+    transform:translate(-30.5%,-51%)scale(1.1);
+  }
+  .download-cv-01{
+    width:800px;
+    transform:translate(-3%,-415%)scale(1.15);
   }
   .goal .goalText {
     line-height:1.5;
-    transform:translateY(7.5%);
+    transform:translateY(-24%) !important;
   }
 }
 @media (min-width:4096px){
@@ -3502,10 +3594,14 @@ border-bottom:3px solid #203242;
     width:800px;
     padding-top:50%;
     padding-left:50%;
-    transform:translate(-32.4%,-55%)scale(1.2);
+    transform:translate(-29.2%,-51%)scale(1.15);
+  }
+  .download-cv-01{
+    width:800px;
+    transform:translate(-6%,-400%)scale(1.2);
   }
   .goal .goalText {
     line-height:1.5;
-    transform:translateY(10%);
+    transform:translateY(-22%) !important;
   }
 }

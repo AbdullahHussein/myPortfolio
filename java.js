@@ -74,6 +74,13 @@ $(document).ready(function() {
     scale: 0,
     easing: "ease"
   });
+  sr.reveal(".download-cv-01", {
+    delay: 0,
+    duration: 1000,
+    opacity: 0,
+    scale: 0,
+    easing: "ease"
+  });
 });
 
 // control scroll event in the page from SweetScroll
