@@ -660,8 +660,8 @@ textarea:focus {
 }
 .send:hover {
   color: rgb(255, 255, 255);
-  border-color:rgb(0, 127, 0, 0.6);
-  background:rgb(0, 127, 0, 0.35);
+  border-color:rgb(0, 127, 0, 0.9);
+  background:rgb(0, 127, 0, 0.9);
 }
 .reset {
   width: 35%;
